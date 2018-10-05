@@ -1,0 +1,32 @@
+# Site settings
+title : SmartSocialcity
+tagline: 'Exploring the underlying social processes in smart city data'
+author :
+  name : Alison Heppenstall
+  github : geoalison
+  twitter : 
+keywords: big data, agent-based modelling, simulation, smart cities, urban analytics
+
+
+description: > # this means to ignore newlines until "baseurl:"
+    This is the website for the SmartSocialCity project - exploring the underlying social processes in smart city data
+
+#baseurl: "https://urban-analytics.github.io/dust" # the subpath of your site, e.g. /blog/
+baseurl: /SmartSocialCity
+#url: https://urban-analytics.github.io
+
+twitter_username: 
+github_username:  geoalison
+email: a.j.heppenstall@leeds.ac.uk
+
+
+# Define how blog permalinks should be constructed
+permalink: /:year/:month/:title.html
+# (the default:)
+#permalink: /:categories/:year/:month/:day/:title.html
+
+# Build settings
+markdown: kramdown
+
+exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
+
