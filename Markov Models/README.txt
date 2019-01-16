@@ -1,0 +1,1 @@
+In this file, experiments with Markov Models reside. The models are developed in various platforms/languages i.e. netlogo, python, java etc.
