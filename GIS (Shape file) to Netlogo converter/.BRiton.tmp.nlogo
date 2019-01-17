@@ -1,19 +1,20 @@
 extensions [ gis ]
-globals [ map-view number-of-turtles ]
+globals [ map-view ]
 
 to setup
   ca
   setup-map
-  create-turtles number-of-turtles
+  create-turtles num-of-turtles
 end
 
 to go
-  let rand random 100
+  reset-ticks
+  turtle-characteristics
 end
 
 ; Adding a dataset from GIS must be a shape file.
 to setup-map
-  set map-view gis:load-dataset "dinfuse_dist_lyr_2011.shp"
+  set map-view gis:load-dataset "data/United_Kingdom/infuse_dist_lyr_2011.shp"
   gis:set-world-envelope (gis:envelope-of map-view)
   display-tracts
 end
@@ -24,10 +25,13 @@ to display-tracts
 end
 
 ; Turtle attributes the characteristics of turtles (agents)
-to turtle-attributes
+to turtle-characteristics
   ask turtles [
-    set pxcor random-xcor
-    set pycor random-ycor
+    ifelse( random 100 <= turn-probability )[
+      rt random 10
+    ][
+      lt random 10
+    ]
     fd 1
   ]
   tick
@@ -47,8 +51,8 @@ GRAPHICS-WINDOW
 1
 1
 0
-1
-1
+0
+0
 1
 -16
 16
@@ -95,10 +99,10 @@ NIL
 1
 
 SLIDER
-124
-660
-296
-693
+73
+616
+245
+649
 num-of-turtles
 num-of-turtles
 0
@@ -107,6 +111,21 @@ num-of-turtles
 1
 1
 NIL
+HORIZONTAL
+
+SLIDER
+73
+656
+245
+689
+turn-probability
+turn-probability
+0
+100
+7.0
+1
+1
+%
 HORIZONTAL
 
 @#$#@#$#@
