@@ -13,7 +13,7 @@ end
 
 ; Adding a dataset from GIS must be a shape file.
 to setup-map
-  set map-view gis:load-dataset "infuse_dist_lyr_2011.shp"
+  set map-view gis:load-dataset "data/United_Kingdom/infuse_dist_lyr_2011.shp"
   gis:set-world-envelope (gis:envelope-of map-view)
   display-tracts
 end
