@@ -107,7 +107,7 @@ num-of-turtles
 num-of-turtles
 0
 100
-45.0
+3.0
 1
 1
 NIL
@@ -122,7 +122,7 @@ turn-probability
 turn-probability
 0
 100
-100.0
+7.0
 1
 1
 %
