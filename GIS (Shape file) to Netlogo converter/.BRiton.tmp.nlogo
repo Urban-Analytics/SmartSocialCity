@@ -5,10 +5,10 @@ to setup
   ca
   setup-map
   create-turtles num-of-turtles
-  reset-ticks
 end
 
 to go
+
   turtle-characteristics
 end
 
