@@ -1,5 +1,43 @@
 extensions [ gis ]
-globals [ map-view england-railways]
+globals [
+  mean-pctred ;;mean percentage red
+  list-weight ;;weight matrix in a list
+  MoransI
+  segregationidex
+  map-view
+ ]
+
+patches-own [ patch_ID     ;;patch ID is identical with polygon ID_ID
+             centroid? ;;if it is the centroid of a polygon
+
+             ;;4 variables for centroids only
+             myneighbors  ;;neighboring patches
+             population          ;;population from data
+             red_turtles   ;;number of red turtles on polygon
+             blue_turtles  ;;number of blue turtles on polygon
+             percent_red  ;;percentage red. 0.5 if unoccupied
+             mycolor      ;;its color
+             occupied?    ;;if it is occupied by a turtle
+             u ;;a variable used in calclating Moran's I. binary. 1 if adjacent
+             ]
+
+turtles-own[
+            turtle_ID ;;turtle ID is identical with polygon ID_ID that it is located in
+            turtle_color
+            happy?   ;;happy if neighboring same color agents >= 50%
+            turtle_neighbors   ;;an agentset of its neighbor turtles
+            red_neighbors   ;;number of red neighbors
+            blue_neighbors   ;;number of blue neighbors
+
+            turtle_neighborpolygons  ;;neighboring polygons' centroid patches
+            blue_neighborpolygons  ;;number of blue neighboring polygons
+            red_neighborpolygons  ;;number of red neighboring polygons
+
+            blue_ratio ;; percentage blue
+            blueratio-polygons ;; percentage blue in neighboring polygons
+            redratio ;; percentage red
+            redratio-polygons ;; percentage red in neighboring polygons
+            ]
 breed [ country-labels country-label]
 breed [ railway-labels railway-label]
 
@@ -19,7 +57,7 @@ to setup-map
   ;If you wish to add extra data combined with say a map, you can do this by
   ; adding envelopes and creating a union between them, for example:
 
-  set map-view gis:load-dataset "data//gb_wa_2010_05.shp"
+  set map-view gis:load-dataset "data/United_Kingdom/infuse_dist_lyr_2011.shp"
   ;set england-railways gis:load-dataset "data/United_Kingdom/railways.shp"
 
   gis:set-world-envelope (gis:envelope-of map-view)
@@ -33,12 +71,6 @@ to display-country
   gis:set-drawing-color white
   gis:draw map-view 1
 end
-
-;to display-railways
-;  ask railway-labels [ die ]
-;  gis:set-drawing-color blue
-  ;gis:draw england-railways 1
-;end
 
 ; Turtle attributes the characteristics of turtles (agents)
 to turtle-characteristics
