@@ -1,28 +1,42 @@
 extensions [ gis ]
-globals [ map-view ]
+globals [ map-view england-railways]
+breed [ country-labels country-label]
+breed [ railway-labels railway-label]
 
 to setup
   ca
   setup-map
   create-turtles num-of-turtles
+  reset-ticks
 end
 
 to go
-
   turtle-characteristics
 end
 
 ; Adding a dataset from GIS must be a shape file.
 to setup-map
+  ;If you wish to add extra data combined with say a map, you can do this by
+  ; adding envelopes and creating a union between them, for example:
+
   set map-view gis:load-dataset "data/United_Kingdom/infuse_dist_lyr_2011.shp"
-  gis:set-world-envelope (gis:envelope-of map-view)
-  display-tracts
+  set england-railways gis:load-dataset "data/United_Kingdom/railways.shp"
+
+  gis:set-world-envelope (gis:envelope-union-of (gis:envelope-of map-view)
+    (gis:envelope-of england-railways))
+  display-country
 end
 
-to display-tracts
+to display-country
   gis:set-drawing-color white
   gis:draw map-view 1
 end
+
+to display-railways
+  ask railway-labels [ die ]
+  gis:set-drawing-color blue
+  gis:draw england-railways 1
+  if railway-labels [
 
 ; Turtle attributes the characteristics of turtles (agents)
 to turtle-characteristics
