@@ -25,9 +25,11 @@ to setup-map
   gis:set-world-envelope (gis:envelope-union-of (gis:envelope-of map-view)
     (gis:envelope-of england-railways))
   display-country
+
 end
 
 to display-country
+  ask country-labels [ die ]
   gis:set-drawing-color white
   gis:draw map-view 1
 end
@@ -36,7 +38,7 @@ to display-railways
   ask railway-labels [ die ]
   gis:set-drawing-color blue
   gis:draw england-railways 1
-  if railway-labels [
+end
 
 ; Turtle attributes the characteristics of turtles (agents)
 to turtle-characteristics
