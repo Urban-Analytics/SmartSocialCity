@@ -1,41 +1,131 @@
 extensions [ gis ]
-globals [ map-view ]
+globals [ mean-pctred ;;mean percentage red
+  list-weight ;;weight matrix in a list
+  MoransI
+  segregationidex
+  map-view
+ ]
+
+patches-own [ patch_ID     ;;patch ID is identical with polygon ID_ID
+             centroid? ;;if it is the centroid of a polygon
+
+             ;;4 variables for centroids only
+             myneighbors  ;;neighboring patches
+             population          ;;population from data
+             red_turtles   ;;number of red turtles on polygon
+             blue_turtles  ;;number of blue turtles on polygon
+             percent_red  ;;percentage red. 0.5 if unoccupied
+             mycolor      ;;its color
+             occupied?    ;;if it is occupied by a turtle
+             u ;;a variable used in calclating Moran's I. binary. 1 if adjacent
+             ]
+
+turtles-own[
+            turtle_ID ;;turtle ID is identical with polygon ID_ID that it is located in
+            turtle_color
+            happy?   ;;happy if neighboring same color agents >= 50%
+            turtle_neighbors   ;;an agentset of its neighbor turtles
+            red_neighbors   ;;number of red neighbors
+            blue_neighbors   ;;number of blue neighbors
+
+            turtle_neighborpolygons  ;;neighboring polygons' centroid patches
+            blue_neighborpolygons  ;;number of blue neighboring polygons
+            red_neighborpolygons  ;;number of red neighboring polygons
+
+            blue_ratio ;; percentage blue
+            blueratio-polygons ;; percentage blue in neighboring polygons
+            redratio ;; percentage red
+            redratio-polygons ;; percentage red in neighboring polygons
+            ]
+breed [ country-labels country-label]
+breed [ railway-labels railway-label]
 
 to setup
   ca
   setup-map
-  create-turtles num-of-turtles
+
+  reset-ticks
 end
 
 to go
-  reset-ticks
-  turtle-characteristics
+
 end
 
 ; Adding a dataset from GIS must be a shape file.
 to setup-map
+  ;If you wish to add extra data combined with say a map, you can do this by
+  ; adding envelopes and creating a union between them, for example:
+
   set map-view gis:load-dataset "data/United_Kingdom/infuse_dist_lyr_2011.shp"
-  gis:set-world-envelope (gis:envelope-of map-view)
-  display-tracts
+  ;set england-railways gis:load-dataset "data/United_Kingdom/railways.shp"
+
+  gis:set-world-envelope gis:envelope-of map-view
+  gis:apply-coverage map-view "SOC" mycolor
+  gis:apply-coverage map-view "ID_ID" patch_ID
+
+  let temp 1
+  foreach gis:feature-list-of map-view
+  [ ?1 -> let center-point gis:location-of gis:centroid-of ?1
+    ask patch item 0 center-point item 1 center-point [
+      set centroid? true
+      set population gis:property-value ?1 "POPULATION"
+    ]
+    set temp temp + 1]
+
+  ask patches with [ centroid? = true ] [ set myneighbors n-of 0 patches] ;Empty set
+  file-close
+  file-open "data/neighbors.txt"
+
+  while [not file-at-end?][
+  let x file-read let y file-read
+    ask patches with [ centroid? = true and patch_ID = x ][ set myneighbors (patch-set myneighbors patches with [centroid? = true and patch_ID = y])]
+  ]
+  file-close
+  ask patches with [centroid? = true][if count myneighbors = 0 [print "ERROR"]]
+
+  foreach gis:feature-list-of map-view[
+    ?1 -> if gis:property-value ?1 "SOC" = "RED" [ gis:set-drawing-color 17 gis:fill ?1 2.0 ]
+    if gis:property-value ?1 "SOC" = "BLUE" [ gis:set-drawing-color 97 gis:fill ?1 2.0 ]
+    if gis:property-value ?1 "SOC" = "UNOCCUPIED" [ gis:set-drawing-color 7 gis:fill ?1 2.0 ]]
+  display-country
+
+  ask patches with [patch_ID > 0][set occupied? false]
+
+  let y 1
+  while [y <= 188][
+    let population1 [population] of patches with [centroid? = true and patch_ID = y]
+    let color1 [mycolor] of patches with [centroid? = true and patch_ID = y]
+
+    if color1 = ["RED"][
+    ask n-of (0.4 *(item 0 population1 / 10)) patches with [patch_ID = y and occupied? = false] [sprout 1 [set turtle_ID y set turtle_color "RED" set color red set size 2 ask patch-here[set occupied? true]]]
+    ask n-of (0.6 *(item 0 population1 / 10)) patches with [patch_ID = y and occupied? = false] [sprout 1 [set turtle_ID y set turtle_color "BLUE" set color blue set size 2 ask patch-here[set occupied? true]]]]
+    if color1 = ["BLUE"][
+      ask n-of (0.4 *(item 0 population1 / 10)) patches with [patch_ID = y and occupied? = false] [sprout 1 [set turtle_ID y set turtle_color "RED" set color blue set size 2 ask patch-here[set occupied? true]]]
+      ask n-of (0.6 *(item 0 population1 / 10)) patches with [patch_ID = y and occupied? = false] [sprout 1 [set turtle_ID y set turtle_color "BLUE" set color red set size 2 ask patch-here[set occupied? true]]]]
+    set y y + 1
+  ]
+
+
 end
 
-to display-tracts
+to display-country
+ ; ask country-labels [ die ]
   gis:set-drawing-color white
   gis:draw map-view 1
 end
 
 ; Turtle attributes the characteristics of turtles (agents)
-to turtle-characteristics
-  ask turtles [
-    ifelse( random 100 <= turn-probability )[
-      rt random 10
-    ][
-      lt random 10
-    ]
-    fd 1
-  ]
-  tick
-end
+;to turtle-characteristics
+ ; ask turtles [
+  ;  ifelse( random 100 <= turn-probability )[
+   ;   rt random 10
+   ; ][
+   ;   lt random 10
+   ; ]
+   ; fd 1
+ ; ]
+ ; tick
+;end
 @#$#@#$#@
 GRAPHICS-WINDOW
 32
@@ -97,36 +187,6 @@ NIL
 NIL
 NIL
 1
-
-SLIDER
-73
-616
-245
-649
-num-of-turtles
-num-of-turtles
-0
-100
-45.0
-1
-1
-NIL
-HORIZONTAL
-
-SLIDER
-73
-656
-245
-689
-turn-probability
-turn-probability
-0
-100
-100.0
-1
-1
-%
-HORIZONTAL
 
 @#$#@#$#@
 ## WHAT IS IT?
