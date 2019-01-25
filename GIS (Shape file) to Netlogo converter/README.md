@@ -10,3 +10,5 @@ The line of code to be replaced is the directory of the '.shp' file which is:
 
 
 Your `shape` file should be added in a file of your choosing in the root directory `data/<YOUR DIRECTORY>` 
+
+### NOTE THIS IS A WORK IN PROGRESS!
