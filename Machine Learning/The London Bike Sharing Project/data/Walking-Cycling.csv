@@ -1,0 +1,1205 @@
+LA code,Local Authority,Year,Frequency,Walking_%,Cycling_%
+E09000001,City of London,2010/11,1x per month,78,30
+E09000002,Barking and Dagenham,2010/11,1x per month,60,8
+E09000003,Barnet,2010/11,1x per month,65,10
+E09000004,Bexley,2010/11,1x per month,65,11
+E09000005,Brent,2010/11,1x per month,62,14
+E09000006,Bromley,2010/11,1x per month,68,14
+E09000007,Camden,2010/11,1x per month,83,20
+E09000008,Croydon,2010/11,1x per month,66,15
+E09000009,Ealing,2010/11,1x per month,61,15
+E09000010,Enfield,2010/11,1x per month,68,13
+E09000011,Greenwich,2010/11,1x per month,71,12
+E09000012,Hackney,2010/11,1x per month,75,26
+E09000013,Hammersmith and Fulham,2010/11,1x per month,74,20
+E09000014,Haringey,2010/11,1x per month,72,14
+E09000015,Harrow,2010/11,1x per month,60,10
+E09000016,Havering,2010/11,1x per month,65,10
+E09000017,Hillingdon,2010/11,1x per month,60,8
+E09000018,Hounslow,2010/11,1x per month,67,16
+E09000019,Islington,2010/11,1x per month,77,19
+E09000020,Kensington and Chelsea,2010/11,1x per month,79,20
+E09000021,Kingston upon Thames,2010/11,1x per month,69,16
+E09000022,Lambeth,2010/11,1x per month,73,22
+E09000023,Lewisham,2010/11,1x per month,73,16
+E09000024,Merton,2010/11,1x per month,66,18
+E09000025,Newham,2010/11,1x per month,64,11
+E09000026,Redbridge,2010/11,1x per month,63,11
+E09000027,Richmond upon Thames,2010/11,1x per month,80,30
+E09000028,Southwark,2010/11,1x per month,75,20
+E09000029,Sutton,2010/11,1x per month,74,15
+E09000030,Tower Hamlets,2010/11,1x per month,70,16
+E09000031,Waltham Forest,2010/11,1x per month,69,14
+E09000032,Wandsworth,2010/11,1x per month,82,20
+E09000033,Westminster,2010/11,1x per month,78,21
+E12000001,North East,2010/11,1x per month,69,13
+E12000002,North West,2010/11,1x per month,70,13
+E12000003,Yorkshire and the Humber,2010/11,1x per month,71,13
+E12000004,East Midlands,2010/11,1x per month,71,15
+E12000005,West Midlands,2010/11,1x per month,68,12
+E12000006,East of England,2010/11,1x per month,70,17
+E12000007,London,2010/11,1x per month,70,16
+E12000008,South East,2010/11,1x per month,73,18
+E12000009,South West,2010/11,1x per month,74,17
+E92000001,ENGLAND,2010/11,1x per month,71,15
+E09000001,City of London,2010/11,1x per week,68,30
+E09000002,Barking and Dagenham,2010/11,1x per week,47,5
+E09000003,Barnet,2010/11,1x per week,50,6
+E09000004,Bexley,2010/11,1x per week,48,6
+E09000005,Brent,2010/11,1x per week,46,9
+E09000006,Bromley,2010/11,1x per week,53,10
+E09000007,Camden,2010/11,1x per week,66,16
+E09000008,Croydon,2010/11,1x per week,49,8
+E09000009,Ealing,2010/11,1x per week,42,10
+E09000010,Enfield,2010/11,1x per week,52,9
+E09000011,Greenwich,2010/11,1x per week,54,7
+E09000012,Hackney,2010/11,1x per week,58,20
+E09000013,Hammersmith and Fulham,2010/11,1x per week,60,14
+E09000014,Haringey,2010/11,1x per week,54,11
+E09000015,Harrow,2010/11,1x per week,42,5
+E09000016,Havering,2010/11,1x per week,49,7
+E09000017,Hillingdon,2010/11,1x per week,47,4
+E09000018,Hounslow,2010/11,1x per week,47,11
+E09000019,Islington,2010/11,1x per week,58,13
+E09000020,Kensington and Chelsea,2010/11,1x per week,62,11
+E09000021,Kingston upon Thames,2010/11,1x per week,55,9
+E09000022,Lambeth,2010/11,1x per week,57,18
+E09000023,Lewisham,2010/11,1x per week,55,10
+E09000024,Merton,2010/11,1x per week,49,15
+E09000025,Newham,2010/11,1x per week,46,8
+E09000026,Redbridge,2010/11,1x per week,47,7
+E09000027,Richmond upon Thames,2010/11,1x per week,57,21
+E09000028,Southwark,2010/11,1x per week,57,16
+E09000029,Sutton,2010/11,1x per week,59,9
+E09000030,Tower Hamlets,2010/11,1x per week,51,11
+E09000031,Waltham Forest,2010/11,1x per week,50,8
+E09000032,Wandsworth,2010/11,1x per week,67,15
+E09000033,Westminster,2010/11,1x per week,60,13
+E12000001,North East,2010/11,1x per week,55,8
+E12000002,North West,2010/11,1x per week,55,8
+E12000003,Yorkshire and the Humber,2010/11,1x per week,57,9
+E12000004,East Midlands,2010/11,1x per week,55,9
+E12000005,West Midlands,2010/11,1x per week,53,7
+E12000006,East of England,2010/11,1x per week,54,11
+E12000007,London,2010/11,1x per week,53,11
+E12000008,South East,2010/11,1x per week,56,11
+E12000009,South West,2010/11,1x per week,58,11
+E92000001,ENGLAND,2010/11,1x per week,55,10
+E09000001,City of London,2010/11,3x per week,31,29
+E09000002,Barking and Dagenham,2010/11,3x per week,28,2
+E09000003,Barnet,2010/11,3x per week,24,3
+E09000004,Bexley,2010/11,3x per week,27,2
+E09000005,Brent,2010/11,3x per week,22,3
+E09000006,Bromley,2010/11,3x per week,29,3
+E09000007,Camden,2010/11,3x per week,35,7
+E09000008,Croydon,2010/11,3x per week,26,4
+E09000009,Ealing,2010/11,3x per week,19,6
+E09000010,Enfield,2010/11,3x per week,31,4
+E09000011,Greenwich,2010/11,3x per week,28,4
+E09000012,Hackney,2010/11,3x per week,33,11
+E09000013,Hammersmith and Fulham,2010/11,3x per week,34,8
+E09000014,Haringey,2010/11,3x per week,28,7
+E09000015,Harrow,2010/11,3x per week,21,2
+E09000016,Havering,2010/11,3x per week,24,4
+E09000017,Hillingdon,2010/11,3x per week,25,2
+E09000018,Hounslow,2010/11,3x per week,24,6
+E09000019,Islington,2010/11,3x per week,32,7
+E09000020,Kensington and Chelsea,2010/11,3x per week,32,5
+E09000021,Kingston upon Thames,2010/11,3x per week,26,4
+E09000022,Lambeth,2010/11,3x per week,28,10
+E09000023,Lewisham,2010/11,3x per week,31,6
+E09000024,Merton,2010/11,3x per week,23,7
+E09000025,Newham,2010/11,3x per week,27,4
+E09000026,Redbridge,2010/11,3x per week,26,3
+E09000027,Richmond upon Thames,2010/11,3x per week,33,9
+E09000028,Southwark,2010/11,3x per week,28,11
+E09000029,Sutton,2010/11,3x per week,26,4
+E09000030,Tower Hamlets,2010/11,3x per week,26,7
+E09000031,Waltham Forest,2010/11,3x per week,22,3
+E09000032,Wandsworth,2010/11,3x per week,32,9
+E09000033,Westminster,2010/11,3x per week,32,7
+E12000001,North East,2010/11,3x per week,28,3
+E12000002,North West,2010/11,3x per week,29,4
+E12000003,Yorkshire and the Humber,2010/11,3x per week,30,4
+E12000004,East Midlands,2010/11,3x per week,28,4
+E12000005,West Midlands,2010/11,3x per week,28,3
+E12000006,East of England,2010/11,3x per week,28,6
+E12000007,London,2010/11,3x per week,27,5
+E12000008,South East,2010/11,3x per week,29,5
+E12000009,South West,2010/11,3x per week,31,5
+E92000001,ENGLAND,2010/11,3x per week,29,4
+E09000001,City of London,2010/11,5x per week,31,18
+E09000002,Barking and Dagenham,2010/11,5x per week,21,1
+E09000003,Barnet,2010/11,5x per week,19,1
+E09000004,Bexley,2010/11,5x per week,21,2
+E09000005,Brent,2010/11,5x per week,15,2
+E09000006,Bromley,2010/11,5x per week,22,1
+E09000007,Camden,2010/11,5x per week,28,5
+E09000008,Croydon,2010/11,5x per week,20,3
+E09000009,Ealing,2010/11,5x per week,14,3
+E09000010,Enfield,2010/11,5x per week,23,2
+E09000011,Greenwich,2010/11,5x per week,22,2
+E09000012,Hackney,2010/11,5x per week,23,8
+E09000013,Hammersmith and Fulham,2010/11,5x per week,27,7
+E09000014,Haringey,2010/11,5x per week,19,3
+E09000015,Harrow,2010/11,5x per week,14,2
+E09000016,Havering,2010/11,5x per week,19,1
+E09000017,Hillingdon,2010/11,5x per week,18,1
+E09000018,Hounslow,2010/11,5x per week,18,4
+E09000019,Islington,2010/11,5x per week,24,3
+E09000020,Kensington and Chelsea,2010/11,5x per week,23,4
+E09000021,Kingston upon Thames,2010/11,5x per week,18,2
+E09000022,Lambeth,2010/11,5x per week,19,7
+E09000023,Lewisham,2010/11,5x per week,25,4
+E09000024,Merton,2010/11,5x per week,17,4
+E09000025,Newham,2010/11,5x per week,21,3
+E09000026,Redbridge,2010/11,5x per week,17,2
+E09000027,Richmond upon Thames,2010/11,5x per week,24,6
+E09000028,Southwark,2010/11,5x per week,19,6
+E09000029,Sutton,2010/11,5x per week,19,4
+E09000030,Tower Hamlets,2010/11,5x per week,20,5
+E09000031,Waltham Forest,2010/11,5x per week,16,2
+E09000032,Wandsworth,2010/11,5x per week,23,6
+E09000033,Westminster,2010/11,5x per week,25,5
+E12000001,North East,2010/11,5x per week,21,2
+E12000002,North West,2010/11,5x per week,21,2
+E12000003,Yorkshire and the Humber,2010/11,5x per week,21,2
+E12000004,East Midlands,2010/11,5x per week,21,2
+E12000005,West Midlands,2010/11,5x per week,20,2
+E12000006,East of England,2010/11,5x per week,21,4
+E12000007,London,2010/11,5x per week,20,3
+E12000008,South East,2010/11,5x per week,21,3
+E12000009,South West,2010/11,5x per week,22,4
+E92000001,ENGLAND,2010/11,5x per week,21,3
+E09000001,City of London,2011/12,1x per month,78,18
+E09000002,Barking and Dagenham,2011/12,1x per month,60,9
+E09000003,Barnet,2011/12,1x per month,65,9
+E09000004,Bexley,2011/12,1x per month,65,10
+E09000005,Brent,2011/12,1x per month,62,10
+E09000006,Bromley,2011/12,1x per month,68,14
+E09000007,Camden,2011/12,1x per month,83,18
+E09000008,Croydon,2011/12,1x per month,66,8
+E09000009,Ealing,2011/12,1x per month,61,14
+E09000010,Enfield,2011/12,1x per month,68,8
+E09000011,Greenwich,2011/12,1x per month,71,14
+E09000012,Hackney,2011/12,1x per month,75,22
+E09000013,Hammersmith and Fulham,2011/12,1x per month,74,20
+E09000014,Haringey,2011/12,1x per month,72,16
+E09000015,Harrow,2011/12,1x per month,60,8
+E09000016,Havering,2011/12,1x per month,65,15
+E09000017,Hillingdon,2011/12,1x per month,60,10
+E09000018,Hounslow,2011/12,1x per month,67,19
+E09000019,Islington,2011/12,1x per month,77,24
+E09000020,Kensington and Chelsea,2011/12,1x per month,79,17
+E09000021,Kingston upon Thames,2011/12,1x per month,69,17
+E09000022,Lambeth,2011/12,1x per month,73,25
+E09000023,Lewisham,2011/12,1x per month,73,13
+E09000024,Merton,2011/12,1x per month,66,16
+E09000025,Newham,2011/12,1x per month,64,11
+E09000026,Redbridge,2011/12,1x per month,63,6
+E09000027,Richmond upon Thames,2011/12,1x per month,80,31
+E09000028,Southwark,2011/12,1x per month,75,22
+E09000029,Sutton,2011/12,1x per month,74,13
+E09000030,Tower Hamlets,2011/12,1x per month,70,15
+E09000031,Waltham Forest,2011/12,1x per month,69,11
+E09000032,Wandsworth,2011/12,1x per month,82,20
+E09000033,Westminster,2011/12,1x per month,78,17
+E12000001,North East,2011/12,1x per month,69,13
+E12000002,North West,2011/12,1x per month,70,13
+E12000003,Yorkshire and the Humber,2011/12,1x per month,71,14
+E12000004,East Midlands,2011/12,1x per month,71,15
+E12000005,West Midlands,2011/12,1x per month,68,12
+E12000006,East of England,2011/12,1x per month,70,19
+E12000007,London,2011/12,1x per month,70,15
+E12000008,South East,2011/12,1x per month,73,18
+E12000009,South West,2011/12,1x per month,74,18
+E92000001,ENGLAND,2011/12,1x per month,71,15
+E09000001,City of London,2011/12,1x per week,68,16
+E09000002,Barking and Dagenham,2011/12,1x per week,47,7
+E09000003,Barnet,2011/12,1x per week,50,5
+E09000004,Bexley,2011/12,1x per week,48,7
+E09000005,Brent,2011/12,1x per week,46,7
+E09000006,Bromley,2011/12,1x per week,53,7
+E09000007,Camden,2011/12,1x per week,66,12
+E09000008,Croydon,2011/12,1x per week,49,6
+E09000009,Ealing,2011/12,1x per week,42,8
+E09000010,Enfield,2011/12,1x per week,52,4
+E09000011,Greenwich,2011/12,1x per week,54,7
+E09000012,Hackney,2011/12,1x per week,58,17
+E09000013,Hammersmith and Fulham,2011/12,1x per week,60,15
+E09000014,Haringey,2011/12,1x per week,54,12
+E09000015,Harrow,2011/12,1x per week,42,5
+E09000016,Havering,2011/12,1x per week,49,10
+E09000017,Hillingdon,2011/12,1x per week,47,7
+E09000018,Hounslow,2011/12,1x per week,47,13
+E09000019,Islington,2011/12,1x per week,58,14
+E09000020,Kensington and Chelsea,2011/12,1x per week,62,11
+E09000021,Kingston upon Thames,2011/12,1x per week,55,12
+E09000022,Lambeth,2011/12,1x per week,57,18
+E09000023,Lewisham,2011/12,1x per week,55,10
+E09000024,Merton,2011/12,1x per week,49,10
+E09000025,Newham,2011/12,1x per week,46,6
+E09000026,Redbridge,2011/12,1x per week,47,4
+E09000027,Richmond upon Thames,2011/12,1x per week,57,19
+E09000028,Southwark,2011/12,1x per week,57,15
+E09000029,Sutton,2011/12,1x per week,59,7
+E09000030,Tower Hamlets,2011/12,1x per week,51,9
+E09000031,Waltham Forest,2011/12,1x per week,50,6
+E09000032,Wandsworth,2011/12,1x per week,67,15
+E09000033,Westminster,2011/12,1x per week,60,13
+E12000001,North East,2011/12,1x per week,55,8
+E12000002,North West,2011/12,1x per week,55,8
+E12000003,Yorkshire and the Humber,2011/12,1x per week,57,9
+E12000004,East Midlands,2011/12,1x per week,55,10
+E12000005,West Midlands,2011/12,1x per week,53,8
+E12000006,East of England,2011/12,1x per week,54,12
+E12000007,London,2011/12,1x per week,53,10
+E12000008,South East,2011/12,1x per week,56,11
+E12000009,South West,2011/12,1x per week,58,11
+E92000001,ENGLAND,2011/12,1x per week,55,10
+E09000001,City of London,2011/12,3x per week,31,10
+E09000002,Barking and Dagenham,2011/12,3x per week,28,3
+E09000003,Barnet,2011/12,3x per week,24,1
+E09000004,Bexley,2011/12,3x per week,27,2
+E09000005,Brent,2011/12,3x per week,22,4
+E09000006,Bromley,2011/12,3x per week,29,3
+E09000007,Camden,2011/12,3x per week,35,6
+E09000008,Croydon,2011/12,3x per week,26,2
+E09000009,Ealing,2011/12,3x per week,19,4
+E09000010,Enfield,2011/12,3x per week,31,1
+E09000011,Greenwich,2011/12,3x per week,28,3
+E09000012,Hackney,2011/12,3x per week,33,11
+E09000013,Hammersmith and Fulham,2011/12,3x per week,34,9
+E09000014,Haringey,2011/12,3x per week,28,6
+E09000015,Harrow,2011/12,3x per week,21,2
+E09000016,Havering,2011/12,3x per week,24,5
+E09000017,Hillingdon,2011/12,3x per week,25,4
+E09000018,Hounslow,2011/12,3x per week,24,8
+E09000019,Islington,2011/12,3x per week,32,8
+E09000020,Kensington and Chelsea,2011/12,3x per week,32,6
+E09000021,Kingston upon Thames,2011/12,3x per week,26,5
+E09000022,Lambeth,2011/12,3x per week,28,11
+E09000023,Lewisham,2011/12,3x per week,31,5
+E09000024,Merton,2011/12,3x per week,23,6
+E09000025,Newham,2011/12,3x per week,27,3
+E09000026,Redbridge,2011/12,3x per week,26,2
+E09000027,Richmond upon Thames,2011/12,3x per week,33,10
+E09000028,Southwark,2011/12,3x per week,28,10
+E09000029,Sutton,2011/12,3x per week,26,4
+E09000030,Tower Hamlets,2011/12,3x per week,26,4
+E09000031,Waltham Forest,2011/12,3x per week,22,3
+E09000032,Wandsworth,2011/12,3x per week,32,9
+E09000033,Westminster,2011/12,3x per week,32,8
+E12000001,North East,2011/12,3x per week,28,3
+E12000002,North West,2011/12,3x per week,29,4
+E12000003,Yorkshire and the Humber,2011/12,3x per week,30,4
+E12000004,East Midlands,2011/12,3x per week,28,4
+E12000005,West Midlands,2011/12,3x per week,28,3
+E12000006,East of England,2011/12,3x per week,28,6
+E12000007,London,2011/12,3x per week,27,5
+E12000008,South East,2011/12,3x per week,29,5
+E12000009,South West,2011/12,3x per week,31,5
+E92000001,ENGLAND,2011/12,3x per week,29,5
+E09000001,City of London,2011/12,5x per week,31,3
+E09000002,Barking and Dagenham,2011/12,5x per week,21,3
+E09000003,Barnet,2011/12,5x per week,19,1
+E09000004,Bexley,2011/12,5x per week,21,2
+E09000005,Brent,2011/12,5x per week,15,2
+E09000006,Bromley,2011/12,5x per week,22,2
+E09000007,Camden,2011/12,5x per week,28,5
+E09000008,Croydon,2011/12,5x per week,20,1
+E09000009,Ealing,2011/12,5x per week,14,2
+E09000010,Enfield,2011/12,5x per week,23,1
+E09000011,Greenwich,2011/12,5x per week,22,2
+E09000012,Hackney,2011/12,5x per week,23,9
+E09000013,Hammersmith and Fulham,2011/12,5x per week,27,6
+E09000014,Haringey,2011/12,5x per week,19,3
+E09000015,Harrow,2011/12,5x per week,14,2
+E09000016,Havering,2011/12,5x per week,19,4
+E09000017,Hillingdon,2011/12,5x per week,18,3
+E09000018,Hounslow,2011/12,5x per week,18,7
+E09000019,Islington,2011/12,5x per week,24,5
+E09000020,Kensington and Chelsea,2011/12,5x per week,23,3
+E09000021,Kingston upon Thames,2011/12,5x per week,18,2
+E09000022,Lambeth,2011/12,5x per week,19,7
+E09000023,Lewisham,2011/12,5x per week,25,3
+E09000024,Merton,2011/12,5x per week,17,3
+E09000025,Newham,2011/12,5x per week,21,2
+E09000026,Redbridge,2011/12,5x per week,17,-
+E09000027,Richmond upon Thames,2011/12,5x per week,24,7
+E09000028,Southwark,2011/12,5x per week,19,7
+E09000029,Sutton,2011/12,5x per week,19,3
+E09000030,Tower Hamlets,2011/12,5x per week,20,3
+E09000031,Waltham Forest,2011/12,5x per week,16,1
+E09000032,Wandsworth,2011/12,5x per week,23,5
+E09000033,Westminster,2011/12,5x per week,25,6
+E12000001,North East,2011/12,5x per week,21,2
+E12000002,North West,2011/12,5x per week,21,2
+E12000003,Yorkshire and the Humber,2011/12,5x per week,21,2
+E12000004,East Midlands,2011/12,5x per week,21,3
+E12000005,West Midlands,2011/12,5x per week,20,2
+E12000006,East of England,2011/12,5x per week,21,4
+E12000007,London,2011/12,5x per week,20,3
+E12000008,South East,2011/12,5x per week,21,3
+E12000009,South West,2011/12,5x per week,22,3
+E92000001,ENGLAND,2011/12,5x per week,21,3
+E09000001,City of London,2012/13,1x per month,87,11
+E09000002,Barking and Dagenham,2012/13,1x per month,85,9
+E09000003,Barnet,2012/13,1x per month,88,10
+E09000004,Bexley,2012/13,1x per month,83,8
+E09000005,Brent,2012/13,1x per month,85,12
+E09000006,Bromley,2012/13,1x per month,90,12
+E09000007,Camden,2012/13,1x per month,94,16
+E09000008,Croydon,2012/13,1x per month,88,12
+E09000009,Ealing,2012/13,1x per month,86,16
+E09000010,Enfield,2012/13,1x per month,82,9
+E09000011,Greenwich,2012/13,1x per month,87,11
+E09000012,Hackney,2012/13,1x per month,89,22
+E09000013,Hammersmith and Fulham,2012/13,1x per month,91,24
+E09000014,Haringey,2012/13,1x per month,91,16
+E09000015,Harrow,2012/13,1x per month,88,7
+E09000016,Havering,2012/13,1x per month,85,10
+E09000017,Hillingdon,2012/13,1x per month,87,15
+E09000018,Hounslow,2012/13,1x per month,88,14
+E09000019,Islington,2012/13,1x per month,93,20
+E09000020,Kensington and Chelsea,2012/13,1x per month,93,15
+E09000021,Kingston upon Thames,2012/13,1x per month,90,22
+E09000022,Lambeth,2012/13,1x per month,89,19
+E09000023,Lewisham,2012/13,1x per month,87,13
+E09000024,Merton,2012/13,1x per month,90,15
+E09000025,Newham,2012/13,1x per month,82,6
+E09000026,Redbridge,2012/13,1x per month,86,10
+E09000027,Richmond upon Thames,2012/13,1x per month,94,34
+E09000028,Southwark,2012/13,1x per month,92,21
+E09000029,Sutton,2012/13,1x per month,87,10
+E09000030,Tower Hamlets,2012/13,1x per month,92,17
+E09000031,Waltham Forest,2012/13,1x per month,84,16
+E09000032,Wandsworth,2012/13,1x per month,93,22
+E09000033,Westminster,2012/13,1x per month,91,18
+E12000001,North East,2012/13,1x per month,84,12
+E12000002,North West,2012/13,1x per month,85,13
+E12000003,Yorkshire and the Humber,2012/13,1x per month,86,14
+E12000004,East Midlands,2012/13,1x per month,86,15
+E12000005,West Midlands,2012/13,1x per month,85,12
+E12000006,East of England,2012/13,1x per month,86,17
+E12000007,London,2012/13,1x per month,88,15
+E12000008,South East,2012/13,1x per month,88,17
+E12000009,South West,2012/13,1x per month,87,17
+E92000001,ENGLAND,2012/13,1x per month,86,15
+E09000001,City of London,2012/13,1x per week,77,8
+E09000002,Barking and Dagenham,2012/13,1x per week,75,7
+E09000003,Barnet,2012/13,1x per week,81,6
+E09000004,Bexley,2012/13,1x per week,76,3
+E09000005,Brent,2012/13,1x per week,73,8
+E09000006,Bromley,2012/13,1x per week,80,5
+E09000007,Camden,2012/13,1x per week,88,11
+E09000008,Croydon,2012/13,1x per week,80,6
+E09000009,Ealing,2012/13,1x per week,78,10
+E09000010,Enfield,2012/13,1x per week,71,6
+E09000011,Greenwich,2012/13,1x per week,77,9
+E09000012,Hackney,2012/13,1x per week,83,18
+E09000013,Hammersmith and Fulham,2012/13,1x per week,85,19
+E09000014,Haringey,2012/13,1x per week,83,10
+E09000015,Harrow,2012/13,1x per week,78,5
+E09000016,Havering,2012/13,1x per week,77,6
+E09000017,Hillingdon,2012/13,1x per week,78,10
+E09000018,Hounslow,2012/13,1x per week,80,8
+E09000019,Islington,2012/13,1x per week,87,13
+E09000020,Kensington and Chelsea,2012/13,1x per week,84,11
+E09000021,Kingston upon Thames,2012/13,1x per week,82,12
+E09000022,Lambeth,2012/13,1x per week,83,17
+E09000023,Lewisham,2012/13,1x per week,80,10
+E09000024,Merton,2012/13,1x per week,81,9
+E09000025,Newham,2012/13,1x per week,74,4
+E09000026,Redbridge,2012/13,1x per week,78,8
+E09000027,Richmond upon Thames,2012/13,1x per week,89,21
+E09000028,Southwark,2012/13,1x per week,85,16
+E09000029,Sutton,2012/13,1x per week,79,5
+E09000030,Tower Hamlets,2012/13,1x per week,84,10
+E09000031,Waltham Forest,2012/13,1x per week,74,10
+E09000032,Wandsworth,2012/13,1x per week,88,16
+E09000033,Westminster,2012/13,1x per week,85,13
+E12000001,North East,2012/13,1x per week,76,8
+E12000002,North West,2012/13,1x per week,76,8
+E12000003,Yorkshire and the Humber,2012/13,1x per week,77,9
+E12000004,East Midlands,2012/13,1x per week,77,10
+E12000005,West Midlands,2012/13,1x per week,74,8
+E12000006,East of England,2012/13,1x per week,76,11
+E12000007,London,2012/13,1x per week,80,10
+E12000008,South East,2012/13,1x per week,78,11
+E12000009,South West,2012/13,1x per week,78,11
+E92000001,ENGLAND,2012/13,1x per week,77,10
+E09000001,City of London,2012/13,3x per week,54,0
+E09000002,Barking and Dagenham,2012/13,3x per week,56,3
+E09000003,Barnet,2012/13,3x per week,58,2
+E09000004,Bexley,2012/13,3x per week,55,1
+E09000005,Brent,2012/13,3x per week,52,4
+E09000006,Bromley,2012/13,3x per week,60,2
+E09000007,Camden,2012/13,3x per week,69,9
+E09000008,Croydon,2012/13,3x per week,56,1
+E09000009,Ealing,2012/13,3x per week,57,7
+E09000010,Enfield,2012/13,3x per week,46,2
+E09000011,Greenwich,2012/13,3x per week,56,4
+E09000012,Hackney,2012/13,3x per week,63,13
+E09000013,Hammersmith and Fulham,2012/13,3x per week,66,12
+E09000014,Haringey,2012/13,3x per week,61,6
+E09000015,Harrow,2012/13,3x per week,56,4
+E09000016,Havering,2012/13,3x per week,55,3
+E09000017,Hillingdon,2012/13,3x per week,55,5
+E09000018,Hounslow,2012/13,3x per week,55,5
+E09000019,Islington,2012/13,3x per week,68,8
+E09000020,Kensington and Chelsea,2012/13,3x per week,65,7
+E09000021,Kingston upon Thames,2012/13,3x per week,58,5
+E09000022,Lambeth,2012/13,3x per week,63,11
+E09000023,Lewisham,2012/13,3x per week,61,5
+E09000024,Merton,2012/13,3x per week,60,5
+E09000025,Newham,2012/13,3x per week,58,2
+E09000026,Redbridge,2012/13,3x per week,58,3
+E09000027,Richmond upon Thames,2012/13,3x per week,64,11
+E09000028,Southwark,2012/13,3x per week,69,12
+E09000029,Sutton,2012/13,3x per week,56,2
+E09000030,Tower Hamlets,2012/13,3x per week,67,5
+E09000031,Waltham Forest,2012/13,3x per week,56,5
+E09000032,Wandsworth,2012/13,3x per week,65,9
+E09000033,Westminster,2012/13,3x per week,69,5
+E12000001,North East,2012/13,3x per week,55,3
+E12000002,North West,2012/13,3x per week,53,3
+E12000003,Yorkshire and the Humber,2012/13,3x per week,54,4
+E12000004,East Midlands,2012/13,3x per week,53,4
+E12000005,West Midlands,2012/13,3x per week,52,3
+E12000006,East of England,2012/13,3x per week,53,5
+E12000007,London,2012/13,3x per week,59,5
+E12000008,South East,2012/13,3x per week,54,5
+E12000009,South West,2012/13,3x per week,56,5
+E92000001,ENGLAND,2012/13,3x per week,55,4
+E09000001,City of London,2012/13,5x per week,52,0
+E09000002,Barking and Dagenham,2012/13,5x per week,48,2
+E09000003,Barnet,2012/13,5x per week,46,1
+E09000004,Bexley,2012/13,5x per week,44,0
+E09000005,Brent,2012/13,5x per week,43,2
+E09000006,Bromley,2012/13,5x per week,49,2
+E09000007,Camden,2012/13,5x per week,60,5
+E09000008,Croydon,2012/13,5x per week,46,1
+E09000009,Ealing,2012/13,5x per week,47,4
+E09000010,Enfield,2012/13,5x per week,39,1
+E09000011,Greenwich,2012/13,5x per week,49,2
+E09000012,Hackney,2012/13,5x per week,55,11
+E09000013,Hammersmith and Fulham,2012/13,5x per week,54,7
+E09000014,Haringey,2012/13,5x per week,49,4
+E09000015,Harrow,2012/13,5x per week,46,2
+E09000016,Havering,2012/13,5x per week,42,2
+E09000017,Hillingdon,2012/13,5x per week,43,2
+E09000018,Hounslow,2012/13,5x per week,46,3
+E09000019,Islington,2012/13,5x per week,58,7
+E09000020,Kensington and Chelsea,2012/13,5x per week,57,3
+E09000021,Kingston upon Thames,2012/13,5x per week,49,3
+E09000022,Lambeth,2012/13,5x per week,54,5
+E09000023,Lewisham,2012/13,5x per week,50,2
+E09000024,Merton,2012/13,5x per week,52,2
+E09000025,Newham,2012/13,5x per week,47,1
+E09000026,Redbridge,2012/13,5x per week,46,2
+E09000027,Richmond upon Thames,2012/13,5x per week,53,8
+E09000028,Southwark,2012/13,5x per week,60,8
+E09000029,Sutton,2012/13,5x per week,44,1
+E09000030,Tower Hamlets,2012/13,5x per week,52,3
+E09000031,Waltham Forest,2012/13,5x per week,46,4
+E09000032,Wandsworth,2012/13,5x per week,55,6
+E09000033,Westminster,2012/13,5x per week,57,2
+E12000001,North East,2012/13,5x per week,45,1
+E12000002,North West,2012/13,5x per week,42,2
+E12000003,Yorkshire and the Humber,2012/13,5x per week,43,2
+E12000004,East Midlands,2012/13,5x per week,42,2
+E12000005,West Midlands,2012/13,5x per week,40,2
+E12000006,East of England,2012/13,5x per week,42,3
+E12000007,London,2012/13,5x per week,49,3
+E12000008,South East,2012/13,5x per week,43,3
+E12000009,South West,2012/13,5x per week,45,3
+E92000001,ENGLAND,2012/13,5x per week,44,3
+E09000001,City of London,2013/14,1x per month,86,7
+E09000002,Barking and Dagenham,2013/14,1x per month,82,7
+E09000003,Barnet,2013/14,1x per month,90,12
+E09000004,Bexley,2013/14,1x per month,86,9
+E09000005,Brent,2013/14,1x per month,89,12
+E09000006,Bromley,2013/14,1x per month,88,12
+E09000007,Camden,2013/14,1x per month,93,15
+E09000008,Croydon,2013/14,1x per month,87,7
+E09000009,Ealing,2013/14,1x per month,87,13
+E09000010,Enfield,2013/14,1x per month,86,8
+E09000011,Greenwich,2013/14,1x per month,89,12
+E09000012,Hackney,2013/14,1x per month,92,24
+E09000013,Hammersmith and Fulham,2013/14,1x per month,93,24
+E09000014,Haringey,2013/14,1x per month,92,15
+E09000015,Harrow,2013/14,1x per month,85,5
+E09000016,Havering,2013/14,1x per month,88,9
+E09000017,Hillingdon,2013/14,1x per month,86,13
+E09000018,Hounslow,2013/14,1x per month,88,15
+E09000019,Islington,2013/14,1x per month,90,21
+E09000020,Kensington and Chelsea,2013/14,1x per month,91,16
+E09000021,Kingston upon Thames,2013/14,1x per month,90,21
+E09000022,Lambeth,2013/14,1x per month,95,20
+E09000023,Lewisham,2013/14,1x per month,88,13
+E09000024,Merton,2013/14,1x per month,89,19
+E09000025,Newham,2013/14,1x per month,87,7
+E09000026,Redbridge,2013/14,1x per month,85,10
+E09000027,Richmond upon Thames,2013/14,1x per month,91,32
+E09000028,Southwark,2013/14,1x per month,92,16
+E09000029,Sutton,2013/14,1x per month,87,12
+E09000030,Tower Hamlets,2013/14,1x per month,89,19
+E09000031,Waltham Forest,2013/14,1x per month,91,13
+E09000032,Wandsworth,2013/14,1x per month,95,18
+E09000033,Westminster,2013/14,1x per month,94,18
+E12000001,North East,2013/14,1x per month,85,12
+E12000002,North West,2013/14,1x per month,84,13
+E12000003,Yorkshire and the Humber,2013/14,1x per month,85,13
+E12000004,East Midlands,2013/14,1x per month,86,16
+E12000005,West Midlands,2013/14,1x per month,84,12
+E12000006,East of England,2013/14,1x per month,86,18
+E12000007,London,2013/14,1x per month,89,14
+E12000008,South East,2013/14,1x per month,87,18
+E12000009,South West,2013/14,1x per month,87,18
+E92000001,ENGLAND,2013/14,1x per month,86,15
+E09000001,City of London,2013/14,1x per week,79,7
+E09000002,Barking and Dagenham,2013/14,1x per week,75,5
+E09000003,Barnet,2013/14,1x per week,83,7
+E09000004,Bexley,2013/14,1x per week,75,5
+E09000005,Brent,2013/14,1x per week,79,7
+E09000006,Bromley,2013/14,1x per week,80,6
+E09000007,Camden,2013/14,1x per week,91,9
+E09000008,Croydon,2013/14,1x per week,81,4
+E09000009,Ealing,2013/14,1x per week,80,9
+E09000010,Enfield,2013/14,1x per week,80,5
+E09000011,Greenwich,2013/14,1x per week,82,8
+E09000012,Hackney,2013/14,1x per week,86,18
+E09000013,Hammersmith and Fulham,2013/14,1x per week,90,20
+E09000014,Haringey,2013/14,1x per week,85,11
+E09000015,Harrow,2013/14,1x per week,79,3
+E09000016,Havering,2013/14,1x per week,79,5
+E09000017,Hillingdon,2013/14,1x per week,77,8
+E09000018,Hounslow,2013/14,1x per week,80,11
+E09000019,Islington,2013/14,1x per week,86,18
+E09000020,Kensington and Chelsea,2013/14,1x per week,88,12
+E09000021,Kingston upon Thames,2013/14,1x per week,86,14
+E09000022,Lambeth,2013/14,1x per week,90,14
+E09000023,Lewisham,2013/14,1x per week,83,9
+E09000024,Merton,2013/14,1x per week,84,12
+E09000025,Newham,2013/14,1x per week,81,4
+E09000026,Redbridge,2013/14,1x per week,78,4
+E09000027,Richmond upon Thames,2013/14,1x per week,85,24
+E09000028,Southwark,2013/14,1x per week,86,11
+E09000029,Sutton,2013/14,1x per week,81,10
+E09000030,Tower Hamlets,2013/14,1x per week,80,13
+E09000031,Waltham Forest,2013/14,1x per week,86,10
+E09000032,Wandsworth,2013/14,1x per week,91,12
+E09000033,Westminster,2013/14,1x per week,90,12
+E12000001,North East,2013/14,1x per week,78,8
+E12000002,North West,2013/14,1x per week,77,8
+E12000003,Yorkshire and the Humber,2013/14,1x per week,79,8
+E12000004,East Midlands,2013/14,1x per week,78,10
+E12000005,West Midlands,2013/14,1x per week,76,7
+E12000006,East of England,2013/14,1x per week,78,12
+E12000007,London,2013/14,1x per week,83,10
+E12000008,South East,2013/14,1x per week,79,11
+E12000009,South West,2013/14,1x per week,80,12
+E92000001,ENGLAND,2013/14,1x per week,79,9
+E09000001,City of London,2013/14,3x per week,68,0
+E09000002,Barking and Dagenham,2013/14,3x per week,57,2
+E09000003,Barnet,2013/14,3x per week,64,1
+E09000004,Bexley,2013/14,3x per week,58,2
+E09000005,Brent,2013/14,3x per week,60,5
+E09000006,Bromley,2013/14,3x per week,61,2
+E09000007,Camden,2013/14,3x per week,77,6
+E09000008,Croydon,2013/14,3x per week,59,3
+E09000009,Ealing,2013/14,3x per week,63,4
+E09000010,Enfield,2013/14,3x per week,60,2
+E09000011,Greenwich,2013/14,3x per week,61,4
+E09000012,Hackney,2013/14,3x per week,67,13
+E09000013,Hammersmith and Fulham,2013/14,3x per week,73,11
+E09000014,Haringey,2013/14,3x per week,65,5
+E09000015,Harrow,2013/14,3x per week,56,1
+E09000016,Havering,2013/14,3x per week,61,2
+E09000017,Hillingdon,2013/14,3x per week,57,5
+E09000018,Hounslow,2013/14,3x per week,61,5
+E09000019,Islington,2013/14,3x per week,66,11
+E09000020,Kensington and Chelsea,2013/14,3x per week,72,7
+E09000021,Kingston upon Thames,2013/14,3x per week,66,7
+E09000022,Lambeth,2013/14,3x per week,68,10
+E09000023,Lewisham,2013/14,3x per week,66,4
+E09000024,Merton,2013/14,3x per week,64,7
+E09000025,Newham,2013/14,3x per week,64,2
+E09000026,Redbridge,2013/14,3x per week,61,1
+E09000027,Richmond upon Thames,2013/14,3x per week,67,11
+E09000028,Southwark,2013/14,3x per week,62,7
+E09000029,Sutton,2013/14,3x per week,59,5
+E09000030,Tower Hamlets,2013/14,3x per week,65,6
+E09000031,Waltham Forest,2013/14,3x per week,63,4
+E09000032,Wandsworth,2013/14,3x per week,74,7
+E09000033,Westminster,2013/14,3x per week,77,7
+E12000001,North East,2013/14,3x per week,57,4
+E12000002,North West,2013/14,3x per week,56,3
+E12000003,Yorkshire and the Humber,2013/14,3x per week,58,4
+E12000004,East Midlands,2013/14,3x per week,57,5
+E12000005,West Midlands,2013/14,3x per week,55,3
+E12000006,East of England,2013/14,3x per week,56,5
+E12000007,London,2013/14,3x per week,64,5
+E12000008,South East,2013/14,3x per week,57,5
+E12000009,South West,2013/14,3x per week,59,5
+E92000001,ENGLAND,2013/14,3x per week,58,4
+E09000001,City of London,2013/14,5x per week,57,0
+E09000002,Barking and Dagenham,2013/14,5x per week,48,2
+E09000003,Barnet,2013/14,5x per week,53,1
+E09000004,Bexley,2013/14,5x per week,45,1
+E09000005,Brent,2013/14,5x per week,51,4
+E09000006,Bromley,2013/14,5x per week,52,1
+E09000007,Camden,2013/14,5x per week,67,4
+E09000008,Croydon,2013/14,5x per week,45,1
+E09000009,Ealing,2013/14,5x per week,52,3
+E09000010,Enfield,2013/14,5x per week,46,1
+E09000011,Greenwich,2013/14,5x per week,51,3
+E09000012,Hackney,2013/14,5x per week,56,10
+E09000013,Hammersmith and Fulham,2013/14,5x per week,61,7
+E09000014,Haringey,2013/14,5x per week,54,2
+E09000015,Harrow,2013/14,5x per week,46,1
+E09000016,Havering,2013/14,5x per week,47,1
+E09000017,Hillingdon,2013/14,5x per week,48,2
+E09000018,Hounslow,2013/14,5x per week,54,4
+E09000019,Islington,2013/14,5x per week,57,7
+E09000020,Kensington and Chelsea,2013/14,5x per week,62,4
+E09000021,Kingston upon Thames,2013/14,5x per week,52,7
+E09000022,Lambeth,2013/14,5x per week,62,6
+E09000023,Lewisham,2013/14,5x per week,55,3
+E09000024,Merton,2013/14,5x per week,57,3
+E09000025,Newham,2013/14,5x per week,51,1
+E09000026,Redbridge,2013/14,5x per week,51,0
+E09000027,Richmond upon Thames,2013/14,5x per week,57,7
+E09000028,Southwark,2013/14,5x per week,54,5
+E09000029,Sutton,2013/14,5x per week,47,3
+E09000030,Tower Hamlets,2013/14,5x per week,57,4
+E09000031,Waltham Forest,2013/14,5x per week,48,2
+E09000032,Wandsworth,2013/14,5x per week,65,4
+E09000033,Westminster,2013/14,5x per week,68,6
+E12000001,North East,2013/14,5x per week,47,2
+E12000002,North West,2013/14,5x per week,45,2
+E12000003,Yorkshire and the Humber,2013/14,5x per week,48,2
+E12000004,East Midlands,2013/14,5x per week,46,2
+E12000005,West Midlands,2013/14,5x per week,44,1
+E12000006,East of England,2013/14,5x per week,46,4
+E12000007,London,2013/14,5x per week,54,3
+E12000008,South East,2013/14,5x per week,46,3
+E12000009,South West,2013/14,5x per week,48,3
+E92000001,ENGLAND,2013/14,5x per week,47,3
+E09000001,City of London,2014/15,1x per month,86,17
+E09000002,Barking and Dagenham,2014/15,1x per month,82,9
+E09000003,Barnet,2014/15,1x per month,90,7
+E09000004,Bexley,2014/15,1x per month,86,11
+E09000005,Brent,2014/15,1x per month,89,8
+E09000006,Bromley,2014/15,1x per month,88,13
+E09000007,Camden,2014/15,1x per month,93,19
+E09000008,Croydon,2014/15,1x per month,87,13
+E09000009,Ealing,2014/15,1x per month,87,15
+E09000010,Enfield,2014/15,1x per month,86,8
+E09000011,Greenwich,2014/15,1x per month,89,8
+E09000012,Hackney,2014/15,1x per month,92,25
+E09000013,Hammersmith and Fulham,2014/15,1x per month,93,20
+E09000014,Haringey,2014/15,1x per month,92,14
+E09000015,Harrow,2014/15,1x per month,85,8
+E09000016,Havering,2014/15,1x per month,88,8
+E09000017,Hillingdon,2014/15,1x per month,86,12
+E09000018,Hounslow,2014/15,1x per month,88,16
+E09000019,Islington,2014/15,1x per month,90,21
+E09000020,Kensington and Chelsea,2014/15,1x per month,91,17
+E09000021,Kingston upon Thames,2014/15,1x per month,90,20
+E09000022,Lambeth,2014/15,1x per month,95,16
+E09000023,Lewisham,2014/15,1x per month,88,16
+E09000024,Merton,2014/15,1x per month,89,14
+E09000025,Newham,2014/15,1x per month,87,6
+E09000026,Redbridge,2014/15,1x per month,85,12
+E09000027,Richmond upon Thames,2014/15,1x per month,91,33
+E09000028,Southwark,2014/15,1x per month,92,20
+E09000029,Sutton,2014/15,1x per month,87,9
+E09000030,Tower Hamlets,2014/15,1x per month,89,22
+E09000031,Waltham Forest,2014/15,1x per month,91,13
+E09000032,Wandsworth,2014/15,1x per month,95,31
+E09000033,Westminster,2014/15,1x per month,94,16
+E12000001,North East,2014/15,1x per month,85,11
+E12000002,North West,2014/15,1x per month,84,13
+E12000003,Yorkshire and the Humber,2014/15,1x per month,85,14
+E12000004,East Midlands,2014/15,1x per month,86,15
+E12000005,West Midlands,2014/15,1x per month,84,13
+E12000006,East of England,2014/15,1x per month,86,17
+E12000007,London,2014/15,1x per month,89,15
+E12000008,South East,2014/15,1x per month,87,17
+E12000009,South West,2014/15,1x per month,87,17
+E92000001,ENGLAND,2014/15,1x per month,86,15
+E09000001,City of London,2014/15,1x per week,86,13
+E09000002,Barking and Dagenham,2014/15,1x per week,72,5
+E09000003,Barnet,2014/15,1x per week,85,5
+E09000004,Bexley,2014/15,1x per week,81,8
+E09000005,Brent,2014/15,1x per week,82,5
+E09000006,Bromley,2014/15,1x per week,87,6
+E09000007,Camden,2014/15,1x per week,88,12
+E09000008,Croydon,2014/15,1x per week,84,9
+E09000009,Ealing,2014/15,1x per week,83,10
+E09000010,Enfield,2014/15,1x per week,81,6
+E09000011,Greenwich,2014/15,1x per week,81,6
+E09000012,Hackney,2014/15,1x per week,89,19
+E09000013,Hammersmith and Fulham,2014/15,1x per week,88,13
+E09000014,Haringey,2014/15,1x per week,81,10
+E09000015,Harrow,2014/15,1x per week,77,5
+E09000016,Havering,2014/15,1x per week,80,3
+E09000017,Hillingdon,2014/15,1x per week,81,9
+E09000018,Hounslow,2014/15,1x per week,85,12
+E09000019,Islington,2014/15,1x per week,91,18
+E09000020,Kensington and Chelsea,2014/15,1x per week,89,10
+E09000021,Kingston upon Thames,2014/15,1x per week,86,13
+E09000022,Lambeth,2014/15,1x per week,84,13
+E09000023,Lewisham,2014/15,1x per week,84,13
+E09000024,Merton,2014/15,1x per week,85,9
+E09000025,Newham,2014/15,1x per week,78,4
+E09000026,Redbridge,2014/15,1x per week,77,6
+E09000027,Richmond upon Thames,2014/15,1x per week,91,23
+E09000028,Southwark,2014/15,1x per week,89,13
+E09000029,Sutton,2014/15,1x per week,86,6
+E09000030,Tower Hamlets,2014/15,1x per week,88,15
+E09000031,Waltham Forest,2014/15,1x per week,85,9
+E09000032,Wandsworth,2014/15,1x per week,91,22
+E09000033,Westminster,2014/15,1x per week,86,11
+E12000001,North East,2014/15,1x per week,80,7
+E12000002,North West,2014/15,1x per week,78,8
+E12000003,Yorkshire and the Humber,2014/15,1x per week,79,9
+E12000004,East Midlands,2014/15,1x per week,80,9
+E12000005,West Midlands,2014/15,1x per week,78,8
+E12000006,East of England,2014/15,1x per week,80,11
+E12000007,London,2014/15,1x per week,84,10
+E12000008,South East,2014/15,1x per week,82,11
+E12000009,South West,2014/15,1x per week,82,10
+E92000001,ENGLAND,2014/15,1x per week,81,9
+E09000001,City of London,2014/15,3x per week,59,9
+E09000002,Barking and Dagenham,2014/15,3x per week,59,3
+E09000003,Barnet,2014/15,3x per week,65,3
+E09000004,Bexley,2014/15,3x per week,61,3
+E09000005,Brent,2014/15,3x per week,62,3
+E09000006,Bromley,2014/15,3x per week,67,3
+E09000007,Camden,2014/15,3x per week,73,5
+E09000008,Croydon,2014/15,3x per week,67,2
+E09000009,Ealing,2014/15,3x per week,65,5
+E09000010,Enfield,2014/15,3x per week,61,4
+E09000011,Greenwich,2014/15,3x per week,66,4
+E09000012,Hackney,2014/15,3x per week,74,12
+E09000013,Hammersmith and Fulham,2014/15,3x per week,77,7
+E09000014,Haringey,2014/15,3x per week,65,6
+E09000015,Harrow,2014/15,3x per week,60,3
+E09000016,Havering,2014/15,3x per week,61,2
+E09000017,Hillingdon,2014/15,3x per week,62,5
+E09000018,Hounslow,2014/15,3x per week,66,5
+E09000019,Islington,2014/15,3x per week,76,11
+E09000020,Kensington and Chelsea,2014/15,3x per week,76,5
+E09000021,Kingston upon Thames,2014/15,3x per week,68,8
+E09000022,Lambeth,2014/15,3x per week,70,6
+E09000023,Lewisham,2014/15,3x per week,71,6
+E09000024,Merton,2014/15,3x per week,67,4
+E09000025,Newham,2014/15,3x per week,62,1
+E09000026,Redbridge,2014/15,3x per week,63,2
+E09000027,Richmond upon Thames,2014/15,3x per week,73,10
+E09000028,Southwark,2014/15,3x per week,78,8
+E09000029,Sutton,2014/15,3x per week,68,3
+E09000030,Tower Hamlets,2014/15,3x per week,74,8
+E09000031,Waltham Forest,2014/15,3x per week,65,6
+E09000032,Wandsworth,2014/15,3x per week,79,15
+E09000033,Westminster,2014/15,3x per week,73,7
+E12000001,North East,2014/15,3x per week,62,3
+E12000002,North West,2014/15,3x per week,60,3
+E12000003,Yorkshire and the Humber,2014/15,3x per week,61,4
+E12000004,East Midlands,2014/15,3x per week,60,4
+E12000005,West Midlands,2014/15,3x per week,59,3
+E12000006,East of England,2014/15,3x per week,61,5
+E12000007,London,2014/15,3x per week,68,5
+E12000008,South East,2014/15,3x per week,62,5
+E12000009,South West,2014/15,3x per week,62,5
+E92000001,ENGLAND,2014/15,3x per week,62,4
+E09000001,City of London,2014/15,5x per week,51,9
+E09000002,Barking and Dagenham,2014/15,5x per week,50,2
+E09000003,Barnet,2014/15,5x per week,54,2
+E09000004,Bexley,2014/15,5x per week,51,2
+E09000005,Brent,2014/15,5x per week,51,2
+E09000006,Bromley,2014/15,5x per week,55,1
+E09000007,Camden,2014/15,5x per week,66,4
+E09000008,Croydon,2014/15,5x per week,51,1
+E09000009,Ealing,2014/15,5x per week,56,3
+E09000010,Enfield,2014/15,5x per week,51,1
+E09000011,Greenwich,2014/15,5x per week,57,3
+E09000012,Hackney,2014/15,5x per week,62,9
+E09000013,Hammersmith and Fulham,2014/15,5x per week,68,5
+E09000014,Haringey,2014/15,5x per week,54,4
+E09000015,Harrow,2014/15,5x per week,50,1
+E09000016,Havering,2014/15,5x per week,50,1
+E09000017,Hillingdon,2014/15,5x per week,48,3
+E09000018,Hounslow,2014/15,5x per week,55,3
+E09000019,Islington,2014/15,5x per week,65,6
+E09000020,Kensington and Chelsea,2014/15,5x per week,67,5
+E09000021,Kingston upon Thames,2014/15,5x per week,59,3
+E09000022,Lambeth,2014/15,5x per week,61,6
+E09000023,Lewisham,2014/15,5x per week,61,5
+E09000024,Merton,2014/15,5x per week,58,3
+E09000025,Newham,2014/15,5x per week,56,0
+E09000026,Redbridge,2014/15,5x per week,54,2
+E09000027,Richmond upon Thames,2014/15,5x per week,64,5
+E09000028,Southwark,2014/15,5x per week,68,3
+E09000029,Sutton,2014/15,5x per week,56,1
+E09000030,Tower Hamlets,2014/15,5x per week,68,8
+E09000031,Waltham Forest,2014/15,5x per week,53,4
+E09000032,Wandsworth,2014/15,5x per week,64,10
+E09000033,Westminster,2014/15,5x per week,63,3
+E12000001,North East,2014/15,5x per week,51,1
+E12000002,North West,2014/15,5x per week,48,2
+E12000003,Yorkshire and the Humber,2014/15,5x per week,50,3
+E12000004,East Midlands,2014/15,5x per week,49,2
+E12000005,West Midlands,2014/15,5x per week,48,2
+E12000006,East of England,2014/15,5x per week,49,3
+E12000007,London,2014/15,5x per week,57,3
+E12000008,South East,2014/15,5x per week,50,3
+E12000009,South West,2014/15,5x per week,50,3
+E92000001,ENGLAND,2014/15,5x per week,51,3
+E09000001,City of London,2015/16,1x per month,88,29
+E09000002,Barking and Dagenham,2015/16,1x per month,68,10
+E09000003,Barnet,2015/16,1x per month,76,11
+E09000004,Bexley,2015/16,1x per month,80,10
+E09000005,Brent,2015/16,1x per month,71,11
+E09000006,Bromley,2015/16,1x per month,84,13
+E09000007,Camden,2015/16,1x per month,83,18
+E09000008,Croydon,2015/16,1x per month,76,10
+E09000009,Ealing,2015/16,1x per month,76,16
+E09000010,Enfield,2015/16,1x per month,75,11
+E09000011,Greenwich,2015/16,1x per month,79,13
+E09000012,Hackney,2015/16,1x per month,85,36
+E09000013,Hammersmith and Fulham,2015/16,1x per month,86,37
+E09000014,Haringey,2015/16,1x per month,81,19
+E09000015,Harrow,2015/16,1x per month,78,10
+E09000016,Havering,2015/16,1x per month,78,10
+E09000017,Hillingdon,2015/16,1x per month,73,10
+E09000018,Hounslow,2015/16,1x per month,71,13
+E09000019,Islington,2015/16,1x per month,86,26
+E09000020,Kensington and Chelsea,2015/16,1x per month,81,20
+E09000021,Kingston upon Thames,2015/16,1x per month,82,21
+E09000022,Lambeth,2015/16,1x per month,83,23
+E09000023,Lewisham,2015/16,1x per month,80,18
+E09000024,Merton,2015/16,1x per month,85,17
+E09000025,Newham,2015/16,1x per month,76,12
+E09000026,Redbridge,2015/16,1x per month,74,13
+E09000027,Richmond upon Thames,2015/16,1x per month,86,32
+E09000028,Southwark,2015/16,1x per month,82,26
+E09000029,Sutton,2015/16,1x per month,78,16
+E09000030,Tower Hamlets,2015/16,1x per month,81,24
+E09000031,Waltham Forest,2015/16,1x per month,79,19
+E09000032,Wandsworth,2015/16,1x per month,85,26
+E09000033,Westminster,2015/16,1x per month,80,19
+E12000001,North East,2015/16,1x per month,76,14
+E12000002,North West,2015/16,1x per month,76,15
+E12000003,Yorkshire and the Humber,2015/16,1x per month,75,15
+E12000004,East Midlands,2015/16,1x per month,77,17
+E12000005,West Midlands,2015/16,1x per month,74,13
+E12000006,East of England,2015/16,1x per month,77,20
+E12000007,London,2015/16,1x per month,79,17
+E12000008,South East,2015/16,1x per month,80,19
+E12000009,South West,2015/16,1x per month,79,20
+E92000001,ENGLAND,2015/16,1x per month,77,17
+E09000001,City of London,2015/16,1x per week,85,22
+E09000002,Barking and Dagenham,2015/16,1x per week,61,7
+E09000003,Barnet,2015/16,1x per week,69,8
+E09000004,Bexley,2015/16,1x per week,70,7
+E09000005,Brent,2015/16,1x per week,63,7
+E09000006,Bromley,2015/16,1x per week,75,10
+E09000007,Camden,2015/16,1x per week,78,14
+E09000008,Croydon,2015/16,1x per week,67,8
+E09000009,Ealing,2015/16,1x per week,70,11
+E09000010,Enfield,2015/16,1x per week,67,7
+E09000011,Greenwich,2015/16,1x per week,73,8
+E09000012,Hackney,2015/16,1x per week,79,30
+E09000013,Hammersmith and Fulham,2015/16,1x per week,81,27
+E09000014,Haringey,2015/16,1x per week,75,14
+E09000015,Harrow,2015/16,1x per week,68,8
+E09000016,Havering,2015/16,1x per week,71,5
+E09000017,Hillingdon,2015/16,1x per week,67,6
+E09000018,Hounslow,2015/16,1x per week,64,9
+E09000019,Islington,2015/16,1x per week,80,23
+E09000020,Kensington and Chelsea,2015/16,1x per week,73,14
+E09000021,Kingston upon Thames,2015/16,1x per week,75,15
+E09000022,Lambeth,2015/16,1x per week,78,17
+E09000023,Lewisham,2015/16,1x per week,73,13
+E09000024,Merton,2015/16,1x per week,80,13
+E09000025,Newham,2015/16,1x per week,68,8
+E09000026,Redbridge,2015/16,1x per week,68,10
+E09000027,Richmond upon Thames,2015/16,1x per week,78,27
+E09000028,Southwark,2015/16,1x per week,76,22
+E09000029,Sutton,2015/16,1x per week,71,9
+E09000030,Tower Hamlets,2015/16,1x per week,76,17
+E09000031,Waltham Forest,2015/16,1x per week,72,14
+E09000032,Wandsworth,2015/16,1x per week,80,20
+E09000033,Westminster,2015/16,1x per week,72,14
+E12000001,North East,2015/16,1x per week,67,10
+E12000002,North West,2015/16,1x per week,66,10
+E12000003,Yorkshire and the Humber,2015/16,1x per week,66,11
+E12000004,East Midlands,2015/16,1x per week,67,11
+E12000005,West Midlands,2015/16,1x per week,64,9
+E12000006,East of England,2015/16,1x per week,67,14
+E12000007,London,2015/16,1x per week,72,13
+E12000008,South East,2015/16,1x per week,70,13
+E12000009,South West,2015/16,1x per week,70,14
+E92000001,ENGLAND,2015/16,1x per week,68,12
+E09000001,City of London,2015/16,3x per week,60,9
+E09000002,Barking and Dagenham,2015/16,3x per week,32,3
+E09000003,Barnet,2015/16,3x per week,42,3
+E09000004,Bexley,2015/16,3x per week,44,1
+E09000005,Brent,2015/16,3x per week,39,3
+E09000006,Bromley,2015/16,3x per week,48,4
+E09000007,Camden,2015/16,3x per week,55,8
+E09000008,Croydon,2015/16,3x per week,48,5
+E09000009,Ealing,2015/16,3x per week,47,7
+E09000010,Enfield,2015/16,3x per week,41,3
+E09000011,Greenwich,2015/16,3x per week,49,4
+E09000012,Hackney,2015/16,3x per week,53,18
+E09000013,Hammersmith and Fulham,2015/16,3x per week,59,16
+E09000014,Haringey,2015/16,3x per week,50,9
+E09000015,Harrow,2015/16,3x per week,40,4
+E09000016,Havering,2015/16,3x per week,42,2
+E09000017,Hillingdon,2015/16,3x per week,40,4
+E09000018,Hounslow,2015/16,3x per week,39,3
+E09000019,Islington,2015/16,3x per week,56,14
+E09000020,Kensington and Chelsea,2015/16,3x per week,53,8
+E09000021,Kingston upon Thames,2015/16,3x per week,50,9
+E09000022,Lambeth,2015/16,3x per week,52,9
+E09000023,Lewisham,2015/16,3x per week,53,9
+E09000024,Merton,2015/16,3x per week,54,8
+E09000025,Newham,2015/16,3x per week,43,4
+E09000026,Redbridge,2015/16,3x per week,45,6
+E09000027,Richmond upon Thames,2015/16,3x per week,55,13
+E09000028,Southwark,2015/16,3x per week,55,16
+E09000029,Sutton,2015/16,3x per week,44,4
+E09000030,Tower Hamlets,2015/16,3x per week,53,11
+E09000031,Waltham Forest,2015/16,3x per week,50,7
+E09000032,Wandsworth,2015/16,3x per week,53,10
+E09000033,Westminster,2015/16,3x per week,50,5
+E12000001,North East,2015/16,3x per week,41,5
+E12000002,North West,2015/16,3x per week,39,5
+E12000003,Yorkshire and the Humber,2015/16,3x per week,40,5
+E12000004,East Midlands,2015/16,3x per week,40,5
+E12000005,West Midlands,2015/16,3x per week,38,4
+E12000006,East of England,2015/16,3x per week,41,7
+E12000007,London,2015/16,3x per week,48,7
+E12000008,South East,2015/16,3x per week,44,6
+E12000009,South West,2015/16,3x per week,43,6
+E92000001,ENGLAND,2015/16,3x per week,42,6
+E09000001,City of London,2015/16,5x per week,46,3
+E09000002,Barking and Dagenham,2015/16,5x per week,24,2
+E09000003,Barnet,2015/16,5x per week,30,2
+E09000004,Bexley,2015/16,5x per week,34,1
+E09000005,Brent,2015/16,5x per week,26,2
+E09000006,Bromley,2015/16,5x per week,37,3
+E09000007,Camden,2015/16,5x per week,42,6
+E09000008,Croydon,2015/16,5x per week,38,3
+E09000009,Ealing,2015/16,5x per week,37,4
+E09000010,Enfield,2015/16,5x per week,30,2
+E09000011,Greenwich,2015/16,5x per week,41,1
+E09000012,Hackney,2015/16,5x per week,41,12
+E09000013,Hammersmith and Fulham,2015/16,5x per week,49,11
+E09000014,Haringey,2015/16,5x per week,35,5
+E09000015,Harrow,2015/16,5x per week,31,2
+E09000016,Havering,2015/16,5x per week,31,1
+E09000017,Hillingdon,2015/16,5x per week,29,1
+E09000018,Hounslow,2015/16,5x per week,27,2
+E09000019,Islington,2015/16,5x per week,44,8
+E09000020,Kensington and Chelsea,2015/16,5x per week,44,4
+E09000021,Kingston upon Thames,2015/16,5x per week,38,7
+E09000022,Lambeth,2015/16,5x per week,41,5
+E09000023,Lewisham,2015/16,5x per week,40,6
+E09000024,Merton,2015/16,5x per week,39,4
+E09000025,Newham,2015/16,5x per week,34,3
+E09000026,Redbridge,2015/16,5x per week,32,4
+E09000027,Richmond upon Thames,2015/16,5x per week,40,8
+E09000028,Southwark,2015/16,5x per week,41,12
+E09000029,Sutton,2015/16,5x per week,33,2
+E09000030,Tower Hamlets,2015/16,5x per week,40,9
+E09000031,Waltham Forest,2015/16,5x per week,38,5
+E09000032,Wandsworth,2015/16,5x per week,40,7
+E09000033,Westminster,2015/16,5x per week,41,4
+E12000001,North East,2015/16,5x per week,31,2
+E12000002,North West,2015/16,5x per week,28,3
+E12000003,Yorkshire and the Humber,2015/16,5x per week,30,3
+E12000004,East Midlands,2015/16,5x per week,29,3
+E12000005,West Midlands,2015/16,5x per week,28,2
+E12000006,East of England,2015/16,5x per week,30,4
+E12000007,London,2015/16,5x per week,36,4
+E12000008,South East,2015/16,5x per week,32,4
+E12000009,South West,2015/16,5x per week,32,3
+E92000001,ENGLAND,2015/16,5x per week,31,3
+E09000001,City of London,2016/17,1x per month,90,19
+E09000002,Barking and Dagenham,2016/17,1x per month,71,10
+E09000003,Barnet,2016/17,1x per month,76,12
+E09000004,Bexley,2016/17,1x per month,80,14
+E09000005,Brent,2016/17,1x per month,72,10
+E09000006,Bromley,2016/17,1x per month,85,12
+E09000007,Camden,2016/17,1x per month,84,21
+E09000008,Croydon,2016/17,1x per month,75,10
+E09000009,Ealing,2016/17,1x per month,78,18
+E09000010,Enfield,2016/17,1x per month,76,9
+E09000011,Greenwich,2016/17,1x per month,78,17
+E09000012,Hackney,2016/17,1x per month,85,31
+E09000013,Hammersmith and Fulham,2016/17,1x per month,83,26
+E09000014,Haringey,2016/17,1x per month,83,18
+E09000015,Harrow,2016/17,1x per month,74,14
+E09000016,Havering,2016/17,1x per month,75,12
+E09000017,Hillingdon,2016/17,1x per month,79,12
+E09000018,Hounslow,2016/17,1x per month,72,13
+E09000019,Islington,2016/17,1x per month,87,22
+E09000020,Kensington and Chelsea,2016/17,1x per month,80,21
+E09000021,Kingston upon Thames,2016/17,1x per month,83,24
+E09000022,Lambeth,2016/17,1x per month,84,24
+E09000023,Lewisham,2016/17,1x per month,78,16
+E09000024,Merton,2016/17,1x per month,79,17
+E09000025,Newham,2016/17,1x per month,77,16
+E09000026,Redbridge,2016/17,1x per month,79,10
+E09000027,Richmond upon Thames,2016/17,1x per month,88,30
+E09000028,Southwark,2016/17,1x per month,82,27
+E09000029,Sutton,2016/17,1x per month,80,8
+E09000030,Tower Hamlets,2016/17,1x per month,82,25
+E09000031,Waltham Forest,2016/17,1x per month,84,20
+E09000032,Wandsworth,2016/17,1x per month,87,23
+E09000033,Westminster,2016/17,1x per month,82,23
+E12000001,North East,2016/17,1x per month,77,14
+E12000002,North West,2016/17,1x per month,76,15
+E12000003,Yorkshire and the Humber,2016/17,1x per month,76,15
+E12000004,East Midlands,2016/17,1x per month,77,16
+E12000005,West Midlands,2016/17,1x per month,74,13
+E12000006,East of England,2016/17,1x per month,79,20
+E12000007,London,2016/17,1x per month,80,17
+E12000008,South East,2016/17,1x per month,81,19
+E12000009,South West,2016/17,1x per month,81,20
+E92000001,ENGLAND,2016/17,1x per month,78,17
+E09000001,City of London,2016/17,1x per week,87,15
+E09000002,Barking and Dagenham,2016/17,1x per week,62,7
+E09000003,Barnet,2016/17,1x per week,67,8
+E09000004,Bexley,2016/17,1x per week,71,9
+E09000005,Brent,2016/17,1x per week,66,7
+E09000006,Bromley,2016/17,1x per week,79,7
+E09000007,Camden,2016/17,1x per week,78,15
+E09000008,Croydon,2016/17,1x per week,69,8
+E09000009,Ealing,2016/17,1x per week,69,11
+E09000010,Enfield,2016/17,1x per week,66,6
+E09000011,Greenwich,2016/17,1x per week,71,12
+E09000012,Hackney,2016/17,1x per week,78,26
+E09000013,Hammersmith and Fulham,2016/17,1x per week,77,19
+E09000014,Haringey,2016/17,1x per week,76,15
+E09000015,Harrow,2016/17,1x per week,67,6
+E09000016,Havering,2016/17,1x per week,67,7
+E09000017,Hillingdon,2016/17,1x per week,70,10
+E09000018,Hounslow,2016/17,1x per week,67,10
+E09000019,Islington,2016/17,1x per week,80,18
+E09000020,Kensington and Chelsea,2016/17,1x per week,76,16
+E09000021,Kingston upon Thames,2016/17,1x per week,77,17
+E09000022,Lambeth,2016/17,1x per week,79,19
+E09000023,Lewisham,2016/17,1x per week,70,13
+E09000024,Merton,2016/17,1x per week,74,13
+E09000025,Newham,2016/17,1x per week,70,9
+E09000026,Redbridge,2016/17,1x per week,71,6
+E09000027,Richmond upon Thames,2016/17,1x per week,83,22
+E09000028,Southwark,2016/17,1x per week,75,21
+E09000029,Sutton,2016/17,1x per week,67,6
+E09000030,Tower Hamlets,2016/17,1x per week,77,19
+E09000031,Waltham Forest,2016/17,1x per week,79,15
+E09000032,Wandsworth,2016/17,1x per week,83,17
+E09000033,Westminster,2016/17,1x per week,77,17
+E12000001,North East,2016/17,1x per week,68,10
+E12000002,North West,2016/17,1x per week,67,11
+E12000003,Yorkshire and the Humber,2016/17,1x per week,67,10
+E12000004,East Midlands,2016/17,1x per week,67,11
+E12000005,West Midlands,2016/17,1x per week,64,9
+E12000006,East of England,2016/17,1x per week,70,14
+E12000007,London,2016/17,1x per week,73,13
+E12000008,South East,2016/17,1x per week,72,13
+E12000009,South West,2016/17,1x per week,72,14
+E92000001,ENGLAND,2016/17,1x per week,69,12
+E09000001,City of London,2016/17,3x per week,69,7
+E09000002,Barking and Dagenham,2016/17,3x per week,37,3
+E09000003,Barnet,2016/17,3x per week,46,2
+E09000004,Bexley,2016/17,3x per week,42,3
+E09000005,Brent,2016/17,3x per week,41,3
+E09000006,Bromley,2016/17,3x per week,53,2
+E09000007,Camden,2016/17,3x per week,56,8
+E09000008,Croydon,2016/17,3x per week,42,3
+E09000009,Ealing,2016/17,3x per week,40,5
+E09000010,Enfield,2016/17,3x per week,40,3
+E09000011,Greenwich,2016/17,3x per week,47,7
+E09000012,Hackney,2016/17,3x per week,54,19
+E09000013,Hammersmith and Fulham,2016/17,3x per week,57,13
+E09000014,Haringey,2016/17,3x per week,48,8
+E09000015,Harrow,2016/17,3x per week,43,3
+E09000016,Havering,2016/17,3x per week,41,4
+E09000017,Hillingdon,2016/17,3x per week,48,3
+E09000018,Hounslow,2016/17,3x per week,39,5
+E09000019,Islington,2016/17,3x per week,54,9
+E09000020,Kensington and Chelsea,2016/17,3x per week,53,8
+E09000021,Kingston upon Thames,2016/17,3x per week,50,7
+E09000022,Lambeth,2016/17,3x per week,55,12
+E09000023,Lewisham,2016/17,3x per week,47,8
+E09000024,Merton,2016/17,3x per week,50,8
+E09000025,Newham,2016/17,3x per week,44,4
+E09000026,Redbridge,2016/17,3x per week,45,2
+E09000027,Richmond upon Thames,2016/17,3x per week,54,10
+E09000028,Southwark,2016/17,3x per week,53,13
+E09000029,Sutton,2016/17,3x per week,45,2
+E09000030,Tower Hamlets,2016/17,3x per week,53,13
+E09000031,Waltham Forest,2016/17,3x per week,53,8
+E09000032,Wandsworth,2016/17,3x per week,54,8
+E09000033,Westminster,2016/17,3x per week,52,9
+E12000001,North East,2016/17,3x per week,43,4
+E12000002,North West,2016/17,3x per week,41,5
+E12000003,Yorkshire and the Humber,2016/17,3x per week,41,5
+E12000004,East Midlands,2016/17,3x per week,41,5
+E12000005,West Midlands,2016/17,3x per week,39,4
+E12000006,East of England,2016/17,3x per week,43,7
+E12000007,London,2016/17,3x per week,48,7
+E12000008,South East,2016/17,3x per week,44,6
+E12000009,South West,2016/17,3x per week,45,7
+E92000001,ENGLAND,2016/17,3x per week,43,6
+E09000001,City of London,2016/17,5x per week,55,1
+E09000002,Barking and Dagenham,2016/17,5x per week,26,2
+E09000003,Barnet,2016/17,5x per week,33,1
+E09000004,Bexley,2016/17,5x per week,30,2
+E09000005,Brent,2016/17,5x per week,31,1
+E09000006,Bromley,2016/17,5x per week,40,2
+E09000007,Camden,2016/17,5x per week,42,4
+E09000008,Croydon,2016/17,5x per week,32,0
+E09000009,Ealing,2016/17,5x per week,30,3
+E09000010,Enfield,2016/17,5x per week,29,1
+E09000011,Greenwich,2016/17,5x per week,36,4
+E09000012,Hackney,2016/17,5x per week,42,14
+E09000013,Hammersmith and Fulham,2016/17,5x per week,43,9
+E09000014,Haringey,2016/17,5x per week,38,6
+E09000015,Harrow,2016/17,5x per week,34,1
+E09000016,Havering,2016/17,5x per week,29,2
+E09000017,Hillingdon,2016/17,5x per week,35,3
+E09000018,Hounslow,2016/17,5x per week,28,3
+E09000019,Islington,2016/17,5x per week,40,5
+E09000020,Kensington and Chelsea,2016/17,5x per week,41,5
+E09000021,Kingston upon Thames,2016/17,5x per week,37,6
+E09000022,Lambeth,2016/17,5x per week,43,7
+E09000023,Lewisham,2016/17,5x per week,37,5
+E09000024,Merton,2016/17,5x per week,38,6
+E09000025,Newham,2016/17,5x per week,34,3
+E09000026,Redbridge,2016/17,5x per week,34,1
+E09000027,Richmond upon Thames,2016/17,5x per week,40,6
+E09000028,Southwark,2016/17,5x per week,43,8
+E09000029,Sutton,2016/17,5x per week,35,2
+E09000030,Tower Hamlets,2016/17,5x per week,39,7
+E09000031,Waltham Forest,2016/17,5x per week,43,6
+E09000032,Wandsworth,2016/17,5x per week,41,4
+E09000033,Westminster,2016/17,5x per week,42,6
+E12000001,North East,2016/17,5x per week,32,2
+E12000002,North West,2016/17,5x per week,31,3
+E12000003,Yorkshire and the Humber,2016/17,5x per week,30,3
+E12000004,East Midlands,2016/17,5x per week,30,3
+E12000005,West Midlands,2016/17,5x per week,28,3
+E12000006,East of England,2016/17,5x per week,32,4
+E12000007,London,2016/17,5x per week,36,4
+E12000008,South East,2016/17,5x per week,32,4
+E12000009,South West,2016/17,5x per week,33,4
+E92000001,ENGLAND,2016/17,5x per week,32,3
