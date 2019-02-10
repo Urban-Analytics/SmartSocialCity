@@ -27,15 +27,16 @@ def __init__():
 
 
 def coin_flip():
-    for i in range(len(n_params)):
-        for j in range(len(p_params)):
+    for i in range(3):
+        for j in range(3):
             n = n_params[i]
             p = p_params[j]
             y = binom(n = n, p = p).pmf(x)
-            ax[i, j].vlines(x, 0, y, colors='CO', lw = 5)
+            ax[i, j].vlines(x, 0, y, colors='b', lw = 5)
             ax[i, j].set_ylim(0, 1)
-            ax[i, j].plot(0, 0, label='N = {:3.2f}\n$\\sigma$ = {:3.2f}'.format(n, p), alpha = 0)
-            ax[i, j].legend()
-    ax[2, 1].set_xlabel('y')
-    ax[1, 0].set_ylabel('p(y | $\\sigma$, N)')
+            ax[i, j].plot(0, 0, label="n = {:3.2f}\np = {:3.2f}".format(n, p), alpha=0)
+            ax[i, j].legend(fontsize = 12)
+    ax[2, 1].set_xlabel('$\\theta$', fontsize=14)
+    ax[1, 0].set_ylabel('$p(y|\\theta)$', fontsize=14)
     ax[0, 0].set_xticks(x)
+    plt.savefig('B04958_01_03.png', dpi=300, figsize=(5.5, 5.5))
