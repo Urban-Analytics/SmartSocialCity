@@ -13,7 +13,7 @@ import pandas as pd
 from scipy.stats import norm
 from scipy.stats import beta
 from matplotlib import pyplot as plt
-
+import arviz as az
 
 def __init__():
     pass
@@ -97,4 +97,9 @@ def posterior_plot():
         plt.legend()
         plt.yticks([])
     plt.tight_layout()
+    plt.show()
+
+def highest_posterior_density(random_val):
+    np.random.seed(random_val)
+    az.plot_posterior({'$\\theta$':beta.rvs(5, 11, size = 1000)})
     plt.show()
