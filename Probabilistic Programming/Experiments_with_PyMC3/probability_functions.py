@@ -11,6 +11,7 @@ Analysis with Python book.
 import numpy as np
 import pandas as pd
 from scipy.stats import norm
+from scipy.stats import beta
 from matplotlib import pyplot as plt
 
 
@@ -45,3 +46,22 @@ def probability_distribution_3by3_graphs():
     ax[1,0].set_ylabel('$pdf(x)$', fontsize=16) #<--- add p(x) to the graph on row 1 column 0.
     plt.tight_layout() #<--- tighten the figure.
     plt.savefig('B04958_01_01.png', dpi=300, figsize=(5.5, 5.5)) #<--- save the figure as a png.
+
+
+def beta_distribution_priori():
+    parameters = [0.5, 1, 2 ,3]
+    x = np.linspace(0, 1, 100)
+    f, ax = plt.subplots(len(params), len(params), sharex = True, sharey = True,
+                        figsize = (8, 7), constrained_layout = True)
+    for i in range(4):
+        for j in range(4):
+            a = params[i]
+            b = params[j]
+            y = beta(a, b).pdf(x)
+            ax[i, j].plot(x, y)
+            ax[i,j].plot(0, 0, label="$\\alpha$ = {:3.2f}\n$\\beta$ = {:3.2f}".format(a, b), alpha=0)
+            ax[i, j].legend()
+            ax[1, 0].set_yticks([])
+            ax[1, 0].set_xticks([0, 0.5, 1])
+            f.text(0.5, 0.05, '$\\theta$', ha = 'center')
+            f.text(0.07, 0.5, '$p\\theta$', va = 'center', rotation = 0)
