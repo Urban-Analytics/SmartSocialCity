@@ -51,12 +51,12 @@ def probability_distribution_3by3_graphs():
 def beta_distribution_priori():
     parameters = [0.5, 1, 2 ,3]
     x = np.linspace(0, 1, 100)
-    f, ax = plt.subplots(len(params), len(params), sharex = True, sharey = True,
+    f, ax = plt.subplots(len(parameters), len(parameters), sharex = True, sharey = True,
                         figsize = (8, 7), constrained_layout = True)
     for i in range(4):
         for j in range(4):
-            a = params[i]
-            b = params[j]
+            a = parameters[i]
+            b = parameters[j]
             y = beta(a, b).pdf(x)
             ax[i, j].plot(x, y)
             ax[i,j].plot(0, 0, label="$\\alpha$ = {:3.2f}\n$\\beta$ = {:3.2f}".format(a, b), alpha=0)
@@ -65,3 +65,35 @@ def beta_distribution_priori():
             ax[1, 0].set_xticks([0, 0.5, 1])
             f.text(0.5, 0.05, '$\\theta$', ha = 'center')
             f.text(0.07, 0.5, '$p\\theta$', va = 'center', rotation = 0)
+            plt.savefig('B04958_01_04.png', dpi=300, figsize=(5.5, 5.5))
+
+
+def posterior_plot():
+    plt.figure(figsize=(10, 8))
+    n_trials = [0, 1, 2, 3, 4, 8, 16, 32, 50, 150]
+    data = [0, 1, 1, 1, 1, 4, 6, 9, 13, 48]
+    theta_real = 0.35
+
+    beta_paras = [(1, 1), (20, 20), (1, 4)]
+    dist = beta
+    x = np.linspace(0, 1, 200)
+
+    for idx, N in enumerate(n_trials):
+        if idx == 0:
+            plt.subplot(4, 3, 2)
+            plt.xlabel('$\\theta$')
+        else:
+            plt.subplot(4, 3, idx+3)
+            plt.xticks([])
+        y = data[idx]
+        for (a_priori, b_priori) in beta_params:
+            p_theta_given_y = dis.pdf(x, a_priori + y, b_priori + N - y)
+            plt.fill_between(x, 0, p_theta_given_y, alpha = 0.7)
+
+        plt.axvline(theta_real, ymax = 0.3, color = 'k')
+        plt.plot(0, 0, label = f'{N:4d} trials\n{y:4d} heads', alpha = 0)
+        plt.xlim(0, 1)
+        plt.ylim(0, 12)
+        plt.legend()
+        plt.yticks([])
+    plt.tight_layout()
