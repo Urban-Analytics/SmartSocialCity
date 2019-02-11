@@ -39,4 +39,4 @@ def coin_flip():
     ax[2, 1].set_xlabel('$\\theta$', fontsize=14)
     ax[1, 0].set_ylabel('$p(y|\\theta)$', fontsize=14)
     ax[0, 0].set_xticks(x)
-    plt.savefig('B04958_01_03.png', dpi=300, figsize=(5.5, 5.5))
+    plt.show()
