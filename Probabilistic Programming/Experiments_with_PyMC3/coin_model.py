@@ -14,6 +14,10 @@ import numpy as np
 from matplotlib import pyplot as plt
 from scipy.stats import norm
 from scipy.stats import binom
+from scipy import stats
+import pymc3 as pm
+import arviz as az
+
 
 
 n_params = [1, 2, 4]
@@ -40,3 +44,19 @@ def coin_flip():
     ax[1, 0].set_ylabel('$p(y|\\theta)$', fontsize=14)
     ax[0, 0].set_xticks(x)
     plt.show()
+
+
+def coin_flip_pymc3(seed):
+    np.random.seed(seed)
+    trials = 4
+    theta_real = 0.35
+    data = stats.bernoulli.rvs(p = theta_real, size = trials)
+
+    with pm.Model() as our_first_model:
+        θ = pm.Beta('θ', alpha = 1., beta = 1.) # <--- Prior
+        y = pm.Bernoulli('y', p = θ, observed = data) # <--- likelihood
+        trace = pm.sample(1000, random_seed = 123)
+        az.plot_trace(trace) # <---- plotting the results
+        az.plot_posterior(trace) # <---- plotting the posterior graph
+        print(az.summary(trace))
+        plt.show()
