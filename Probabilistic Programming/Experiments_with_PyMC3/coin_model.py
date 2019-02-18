@@ -16,6 +16,7 @@ from scipy.stats import norm
 from scipy.stats import binom
 
 
+
 n_params = [1, 2, 4]
 p_params = [0.25, 0.5, 0.75]
 x = np.arange(0, max(n_params) + 1)
