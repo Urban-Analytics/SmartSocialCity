@@ -12,6 +12,8 @@ import probability_functions as pf
 import data as dt
 import coin_model as cm
 from matplotlib import pyplot as plt
+import pymc3 as pm
+import arviz as az
 
 data_cO2 = dt.csv_converter(r'/Users/solmez/SmartSocialCity/Probabilistic Programming/Experiments_with_PyMC3/mauna_C02.csv')
 

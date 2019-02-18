@@ -16,6 +16,7 @@ from scipy.stats import norm
 from scipy.stats import binom
 from scipy import stats
 import pymc3 as pm
+import arviz as az
 
 
 
@@ -55,3 +56,5 @@ def coin_flip_pymc3(seed):
         θ = pm.Beta('θ', alpha = 1., beta = 1.) # <--- Prior
         y = pm.Bernoulli('y', p = θ, observed = data) # <--- likelihood
         trace = pm.sample(1000, random_seed = 123)
+        az.plot_trace(trace) # <---- plotting the results
+        plt.show()
