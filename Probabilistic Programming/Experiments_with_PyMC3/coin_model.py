@@ -57,5 +57,6 @@ def coin_flip_pymc3(seed):
         y = pm.Bernoulli('y', p = θ, observed = data) # <--- likelihood
         trace = pm.sample(1000, random_seed = 123)
         az.plot_trace(trace) # <---- plotting the results
+        az.plot_posterior(trace) # <---- plotting the posterior graph
         print(az.summary(trace))
         plt.show()
