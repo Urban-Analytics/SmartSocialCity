@@ -102,4 +102,5 @@ def posterior_plot():
 def highest_posterior_density(random_val):
     np.random.seed(random_val)
     az.plot_posterior({'$\\theta$':beta.rvs(5, 11, size = 1000)})
+    az.summary(trace)
     plt.show()
