@@ -67,7 +67,7 @@ def beta_distribution_priori():
             f.text(0.07, 0.5, '$p\\theta$', va = 'center', rotation = 0)
             plt.show()
 
-
+'''
 def posterior_plot():
     plt.figure(figsize=(10, 8))
     n_trials = [0, 1, 2, 3, 4, 8, 16, 32, 50, 150]
@@ -97,7 +97,7 @@ def posterior_plot():
         plt.legend()
         plt.yticks([])
     plt.tight_layout()
-    plt.show()
+    plt.show()'''
 
 def highest_posterior_density(random_val):
     np.random.seed(random_val)
