@@ -14,6 +14,8 @@ from scipy.stats import norm
 from scipy.stats import beta
 from matplotlib import pyplot as plt
 import arviz as az
+from scipy import stats
+import pymc3 as pm
 
 def __init__():
     pass
@@ -109,16 +111,25 @@ def highest_posterior_density(random_val):
 
 def loss_quadratic():
 
-    grid = np.linspace(0, 1, 200)
-    beta_pos = trace['beta']
-    lossf_a = [np.mean(abs(i - beta_pos)) for i in grid]
-    lossf_b = [np.mean((i - beta_pos)**2) for i in grid]
+    np.random.seed(123)
+    trials = 4
+    theta_real = 0.35
+    data = stats.bernoulli.rvs(p = theta_real, size=trials)
 
-    for lossf, c in zip([lossf_a, lossf_b], ['CO', 'C1']):
-        mini = np.argmin(lossf, c)
-        plt.plot(grid, lossf, c)
-        plt.plot(grid[mini], lossf[mini], 'o', color = c)
-        plt.annotate('{:.2f}'.format(grid[mini]),
-                                    (grid[mini], lossf[mini] + 0.03), color = c)
-        plt.yticks([])
-        plt.xlabel(r'$\hat \theta$')
+    with pm.Model() as our_first_model:
+        θ = pm.Beta('θ', alpha=1., beta=1.)
+        y = pm.Bernoulli('y', p=θ,observed = data)
+        trace = pm.sample(1000, random_seed = 123)
+        grid = np.linspace(0, 1, 200)
+        θ_pos = trace['θ']
+        lossf_a = [np.mean(abs(i - θ_pos)) for i in grid]
+        lossf_b = [np.mean((i - θ_pos)**2) for i in grid]
+
+        for lossf, c in zip([lossf_a, lossf_b], ['C0', 'C1']):
+            mini = np.argmin(lossf)
+            plt.plot(grid, lossf, c)
+            plt.plot(grid[mini], lossf[mini], 'o', color = c)
+            plt.annotate('{:.2f}'.format(grid[mini]),
+                                        (grid[mini], lossf[mini] + 0.03), color = c)
+            plt.yticks([])
+            plt.xlabel(r'$\hat \theta$')
