@@ -104,3 +104,21 @@ def highest_posterior_density(random_val):
     az.plot_posterior({'$\\theta$':beta.rvs(5, 11, size = 1000)})
     az.summary(trace)
     plt.show()
+
+# The LOSS function
+
+def loss_quadratic():
+
+    grid = np.linspace(0, 1, 200)
+    beta_pos = trace['beta']
+    lossf_a = [np.mean(abs(i - beta_pos)) for i in grid]
+    lossf_b = [np.mean((i - beta_pos)**2) for i in grid]
+
+    for lossf, c in zip([lossf_a, lossf_b], ['CO', 'C1']):
+        mini = np.argmin(lossf, c)
+        plt.plot(grid, lossf, c)
+        plt.plot(grid[mini], lossf[mini], 'o', color = c)
+        plt.annotate('{:.2f}'.format(grid[mini]),
+                                    (grid[mini], lossf[mini] + 0.03), color = c)
+        plt.yticks([])
+        plt.xlabel(r'$\hat \theta$')

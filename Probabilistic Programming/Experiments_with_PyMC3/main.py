@@ -14,10 +14,22 @@ import coin_model as cm
 from matplotlib import pyplot as plt
 import pymc3 as pm
 import arviz as az
+import numpy as np
+from scipy import stats
 
 data_cO2 = dt.csv_converter(r'/Users/solmez/SmartSocialCity/Probabilistic Programming/Experiments_with_PyMC3/mauna_C02.csv')
 
 print(pf.probability_distribution_scipy(3))
+
+np.random.seed(123)
+trials = 4
+theta_real = 0.35
+data = stats.bernoulli.rvs(p = theta_real, size=trials)
+
+with pm.Model() as our_first_model:
+    beta = pm.Beta('O', alpha=1., beta=1.)
+    y = pm.Bernoulli('y', p=beta,observed = data)
+    trace = pm.sample(1000, random_seed = 123)
 
 #pf.probability_distribution_3by3_graphs()
 
@@ -29,5 +41,5 @@ print(pf.probability_distribution_scipy(3))
 #cm.coin_flip()
 #pf.beta_distribution_priori()
 #pf.posterior_plot()
-#pf.highest_posterior_density(1)
-cm.coin_flip_pymc3(123)
+##cm.coin_flip_pymc3(123)
+#pf.loss_quadratic()
