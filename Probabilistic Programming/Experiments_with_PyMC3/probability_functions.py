@@ -137,22 +137,32 @@ def loss_quadratic():
 
 
 def asymmetric_loss_function():
-    grid = np.linspace(0, 1, 200)
-    lossf = []
-    θ_pos = trace['θ']
 
-    for i in grid:
-        if i < 0.5:
-            f = np.mean(np./pi * θ_pos / np.abs(i - θ_pos))
-        else:
-            f = np.mean(1 / (i - θ_pos))
-        lossf.append(f)
+    np.random.seed(123)
+    trials = 4
+    theta_real = 0.35
+    data = stats.bernoulli.rvs(p = theta_real, size=trials)
 
-    mini = np.argmin(lossf)
-    plt.plot(grid, lossf)
-    plt.plot(grid[mini], lossf[mini], 'o')
-    plt.annotate('{:.2f}'.format(grid[mini]),
-                (grid[mini] + 0.01, lossf[mini] + 0.1))
-    plt.yticks([])
-    plt.xlabel(r'$\hat \theta$')
-    plt.show()
+    with pm.Model() as our_first_model:
+        θ = pm.Beta('θ', alpha=1., beta=1.)
+        y = pm.Bernoulli('y', p=θ,observed = data)
+        trace = pm.sample(1000, random_seed = 123)
+        grid = np.linspace(0, 1, 200)
+        lossf = []
+        θ_pos = trace['θ']
+
+        for i in grid:
+            if i < 0.5:
+                f = np.mean(np.pi * θ_pos / np.abs(i - θ_pos))
+            else:
+                f = np.mean(1 / (i - θ_pos))
+            lossf.append(f)
+
+        mini = np.argmin(lossf)
+        plt.plot(grid, lossf)
+        plt.plot(grid[mini], lossf[mini], 'o')
+        plt.annotate('{:.2f}'.format(grid[mini]),
+                    (grid[mini] + 0.01, lossf[mini] + 0.1))
+        plt.yticks([])
+        plt.xlabel(r'$\hat \theta$')
+        plt.show()
