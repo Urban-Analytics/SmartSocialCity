@@ -53,8 +53,8 @@ def coin_flip_pymc3(seed):
     data = stats.bernoulli.rvs(p = theta_real, size = trials)
 
     with pm.Model() as our_first_model:
-        θ = pm.Beta('θ', alpha = 1., beta = 1.) # <--- Prior
-        y = pm.Bernoulli('y', p = θ, observed = data) # <--- likelihood
+        beta = pm.Beta('O', alpha = 1., beta = 1.) # <--- Prior
+        y = pm.Bernoulli('y', p = beta, observed = data) # <--- likelihood
         trace = pm.sample(1000, random_seed = 123)
         az.plot_trace(trace) # <---- plotting the results
         az.plot_posterior(trace) # <---- plotting the posterior graph
