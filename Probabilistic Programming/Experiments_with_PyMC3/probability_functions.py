@@ -107,7 +107,7 @@ def highest_posterior_density(random_val):
     az.summary(trace)
     plt.show()
 
-# The LOSS function
+# The LOSS function DECISION THEORY -------------------------------------------
 
 def loss_quadratic():
 
@@ -166,3 +166,4 @@ def asymmetric_loss_function():
         plt.yticks([])
         plt.xlabel(r'$\hat \theta$')
         plt.show()
+#------------------------------------------------------------------------------
