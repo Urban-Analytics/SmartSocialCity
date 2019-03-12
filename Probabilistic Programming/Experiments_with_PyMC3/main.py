@@ -13,6 +13,7 @@ import data as dt
 import coin_model as cm
 from matplotlib import pyplot as plt
 import pymc3 as pm
+import nuclear_magnetic_resonance as nmr
 import arviz as az
 import numpy as np
 from scipy import stats
@@ -35,4 +36,5 @@ print(pf.probability_distribution_scipy(3))
 #pf.posterior_plot()
 ##cm.coin_flip_pymc3(123)
 #pf.loss_quadratic()
-pf.asymmetric_loss_function()
+#pf.asymmetric_loss_function()
+nmr.NMR()
