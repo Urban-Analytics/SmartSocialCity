@@ -20,8 +20,8 @@ import arviz as az
 
 
 
-n_params = []
-p_params = []
+n_params = [1, 2, 4]
+p_params = [0.25, 0.5, 0.75]
 seed = 0
 x = np.arange(0, max(n_params) + 1)
 f, ax = plt.subplots(len(n_params), len(p_params), sharex = True,
