@@ -8,31 +8,33 @@ Class description: This class is a sandbox for executing short methods developed
 from the material in the pymc3 https://docs.pymc.io/ documentation and Bayesian
 Analysis with Python book.
 '''
+
+import numpy as np
+from matplotlib import pyplot as plt
+from scipy.stats import norm
+from scipy.stats import binom
+from scipy import stats
+import pymc3 as pm
+import arviz as az
+
+
 class Coin:
 
-    import numpy as np
-    from matplotlib import pyplot as plt
-    from scipy.stats import norm
-    from scipy.stats import binom
-    from scipy import stats
-    import pymc3 as pm
-    import arviz as az
 
-    n_params = [1, 2, 4]
-    p_params = [0.25, 0.5, 0.75]
-    seed = 0
-    x = np.arange(0, max(n_params) + 1)
-    f, ax = plt.subplots(len(n_params), len(p_params), sharex = True,
-                        sharey = True, figsize=(8, 7), constrained_layout = True)
+    seed = None
 
 
-    def __init__(self, seed, n_params, p_params):
+
+    def __init__(self, seed):
         self.seed = seed
-        self.n_params = n_params
-        self.p_params = p_params
 
 
-    def coin_flip():
+    def coin_flip(self):
+        n_params = [1, 2, 4]
+        p_params = [0.25, 0.5, 0.75]
+        x = np.arange(0, max(n_params) + 1)
+        f, ax = plt.subplots(len(n_params), len(p_params), sharex = True,
+                            sharey = True, figsize=(8, 7), constrained_layout = True)
         for i in range(3):
             for j in range(3):
                 n = n_params[i]
@@ -48,7 +50,7 @@ class Coin:
         plt.show()
 
 
-    def coin_flip_pymc3(seed):
+    def coin_flip_pymc3(self, seed):
         np.random.seed(seed)
         trials = 4
         theta_real = 0.35
