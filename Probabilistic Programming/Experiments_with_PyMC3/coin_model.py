@@ -20,14 +20,18 @@ import arviz as az
 
 
 
-n_params = [1, 2, 4]
-p_params = [0.25, 0.5, 0.75]
+n_params = []
+p_params = []
+seed = 0
 x = np.arange(0, max(n_params) + 1)
 f, ax = plt.subplots(len(n_params), len(p_params), sharex = True,
                     sharey = True, figsize=(8, 7), constrained_layout = True)
 
-def __init__():
-    pass
+
+def __init__(self, seed, n_params, p_params):
+    seed = this.seed
+    n_params = this.n_params
+    p_params = this.p_params
 
 
 def coin_flip():
