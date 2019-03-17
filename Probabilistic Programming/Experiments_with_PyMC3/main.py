@@ -10,7 +10,7 @@ Analysis with Python book.
 '''
 import probability_functions as pf
 import data as dt
-import coin_model as cm
+from coin_model import Coin
 from matplotlib import pyplot as plt
 import pymc3 as pm
 import nuclear_magnetic_resonance as nmr
@@ -37,4 +37,7 @@ print(pf.probability_distribution_scipy(3))
 ##cm.coin_flip_pymc3(123)
 #pf.loss_quadratic()
 #pf.asymmetric_loss_function()
-nmr.NMR()
+coin_model_01 = Coin(123)
+coin_model_01.coin_flip()
+#coin_model_01.coin_flip_pymc3()
+#nmr.NMR()
