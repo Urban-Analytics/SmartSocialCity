@@ -5,7 +5,7 @@ Date: 17/03/2019
 
 # Data augmentation
 #from keras.Preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
-from keras import *
+from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
 datagen = ImageDataGenerator(
     rotation_range = 40,
     width_shift_range = 0.2,
