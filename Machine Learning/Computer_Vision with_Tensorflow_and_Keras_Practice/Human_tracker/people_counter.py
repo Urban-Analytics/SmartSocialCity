@@ -48,3 +48,27 @@ if not args.get('input', False):
 else:
     print('[INFO] opening video file..')
     vs = cv2.VideoCapture(args["input"])
+
+# initialize the video writer (we'll instantiate later if need be)
+writer = None
+
+# initialize the frame dimensions (we'll set them as soon as we read
+# the first frame from the video)
+W = None
+H = None
+
+# instantiate our centroid tracker, then initialize a list to store
+# each of our dlib correlation trackers, followed by a dictionary to
+# map each unique object ID to a TrackableObject
+ct = CentroidTracker(maxDisappeared=40, maxDistance=50)
+trackers = []
+trackableObjects = {}
+
+# initialize the total number of frames processed thus far, along
+# with the total number of objects that have moved either up or down
+totalFrames = 0
+totalDown = 0
+totalUp = 0
+
+# start the frames per second throughput estimator
+fps = FPS().start()
