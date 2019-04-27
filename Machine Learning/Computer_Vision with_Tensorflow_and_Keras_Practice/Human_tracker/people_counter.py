@@ -101,3 +101,22 @@ while True:
 		fourcc = cv2.VideoWriter_fourcc(*"MJPG")
 		writer = cv2.VideoWriter(args["output"], fourcc, 30,
 			(W, H), True)
+
+    # initialize the current status along with our list of bounding
+	# box rectangles returned by either (1) our object detector or
+	# (2) the correlation trackers
+	status = "Waiting"
+	rects = []
+
+	# check to see if we should run a more computationally expensive
+	# object detection method to aid our tracker
+	if totalFrames % args["skip_frames"] == 0:
+		# set the status and initialize our new set of object trackers
+		status = "Detecting"
+		trackers = []
+ 
+		# convert the frame to a blob and pass the blob through the
+		# network and obtain the detections
+		blob = cv2.dnn.blobFromImage(frame, 0.007843, (W, H), 127.5)
+		net.setInput(blob)
+		detections = net.forward()
