@@ -1,5 +1,5 @@
 # Import necessary packages
-#from pyimagesearch.centroidtracker import CentroidTracker
+from pyimagesearch.centroidtracker import CentroidTracker
 from pyimagesearch.trackableobject import TrackableObject
 from imutils.video import VideoStream
 from imutils.video import FPS
@@ -114,9 +114,26 @@ while True:
 		# set the status and initialize our new set of object trackers
 		status = "Detecting"
 		trackers = []
- 
+
 		# convert the frame to a blob and pass the blob through the
 		# network and obtain the detections
 		blob = cv2.dnn.blobFromImage(frame, 0.007843, (W, H), 127.5)
 		net.setInput(blob)
 		detections = net.forward()
+
+		# loop over the detections
+		for i in np.arange(0, detections.shape[2]):
+			# extract the confidence (i.e., probability) associated
+			# with the prediction
+			confidence = detections[0, 0, i, 2]
+ 
+			# filter out weak detections by requiring a minimum
+			# confidence
+			if confidence > args["confidence"]:
+				# extract the index of the class label from the
+				# detections list
+				idx = int(detections[0, 0, i, 1])
+
+				# if the class label is not a person, ignore it
+				if CLASSES[idx] != "person":
+					continue
